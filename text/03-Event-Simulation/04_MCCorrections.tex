@@ -1,0 +1,12 @@
+\section{Monte Carlo corrections}
+\label{chp:evtsim:mccorr}
+
+
+The simulated event samples are normalised using the higher-order (typically at NLO in QCD) available cross section calculation for that process. Events are normalised to the integrated luminosity in order to compare the distributions with observed data. In addition, events are reweighted in order to match the expected number of interactions per bunch crossing $\langle\mu\rangle$ in real data-taking conditions.
+To ensure an accurate modeling of the detector effects, reconstruction and selection effciencies $\epsilon$ are corrected with multiplicative scale factors (SF) defined as
+\be
+{\rm SF} = \frac{\epsilon_{\rm data}}{\epsilon_{\rm MC}},
+\ee
+
+\noindent where $\epsilon_{\rm data}$ and $\epsilon_{\rm MC}$ are measured in dedicated data calibration samples and in the equivalent MC simulation, respectively. Analogously, energy scale and resolution of the different physics objects in the simulation are corrected to match the corresponding measurements in data.
+

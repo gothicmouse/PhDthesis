@@ -1,0 +1,53 @@
+M$ModelName = "newAEFT";
+M$Information = {Authors -> {"M. Casolino"},
+Version -> "1.0",
+Date -> "27. 02. 2012",
+Institutions -> {"IFAE Barcelona"},
+Emails -> {"mcasolin@cern.ch"}
+};
+
+FeynmanGauge = True;
+
+M$Parameters = {
+
+    cT == {
+          ParameterType    -> External,
+          BlockName        -> dima,
+          Value            -> 1.0,
+          InteractionOrder -> {NP, 1}
+         },
+
+    cB == {
+          ParameterType    -> External,
+          BlockName        -> dima, 
+          Value            -> 1.0,
+          InteractionOrder -> {NP, 1}
+         }
+
+};
+
+
+
+
+
+
+(*****************************************************************************)
+(*              New fields                                                   *)
+(*****************************************************************************)
+
+
+M$ClassesDescription = {
+
+
+S[4] == {
+          ClassName      -> X,
+          SelfConjugate  -> True,
+          Mass           -> {MAx,20},
+          Width          -> {WAx,1},
+	  PropagatorLabel -> "X",
+          PropagatorType  -> D,
+          PropagatorArrow -> None
+         }
+
+
+};

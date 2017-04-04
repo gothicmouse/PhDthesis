@@ -1,0 +1,156 @@
+\select@language {english}
+\contentsline {starchapter}{Introduction}{1}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Theoretical framework}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}The Standard Model}{4}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Quantum Chromodynamics}{5}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Electroweak theory}{7}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}The Brout-Higgs-Englert mechanism}{8}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Higgs boson production and decay in the Standard Model}{11}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.1.5}Experimental tests and limitations of the Standard Model}{11}{subsection.1.1.5}
+\contentsline {section}{\numberline {1.2}Beyond the Standard Model}{15}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Supersymmetry}{15}{subsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.1.1}The Two-Higgs-doublet model}{17}{subsubsection.1.2.1.1}
+\contentsline {subsection}{\numberline {1.2.2}Extra dimensions}{18}{subsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.2.1}Flat-extra-dimensions models}{18}{subsubsection.1.2.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2.2}Warped-extra-dimension models}{19}{subsubsection.1.2.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Compositeness}{19}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Vector-like quarks}{20}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Anomalous four-top-quark production}{22}{subsection.1.2.5}
+\contentsline {chapter}{\numberline {2}The ATLAS experiment at the Large Hadron Collider}{25}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{26}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}CERN accelerator complex}{26}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}LHC design and machine parameters}{26}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}LHC experiments}{29}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}From first beam to world's record energy and luminosity}{29}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}The ATLAS experiment}{30}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Coordinate system}{32}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Magnet system}{33}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Inner detector}{34}{subsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3.1}Pixel detector}{35}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.3.2}Semiconductor tracker}{36}{subsubsection.2.2.3.2}
+\contentsline {subsubsection}{\numberline {2.2.3.3}Transition radiation tracker}{36}{subsubsection.2.2.3.3}
+\contentsline {subsection}{\numberline {2.2.4}Calorimeters}{37}{subsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.4.1}Electromagnetic calorimeter}{37}{subsubsection.2.2.4.1}
+\contentsline {subsubsection}{\numberline {2.2.4.2}Hadronic calorimeter}{39}{subsubsection.2.2.4.2}
+\contentsline {subsection}{\numberline {2.2.5}Muon spectrometer}{40}{subsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.5.1}Tracking chambers}{40}{subsubsection.2.2.5.1}
+\contentsline {subsubsection}{\numberline {2.2.5.2}Triggering chambers}{41}{subsubsection.2.2.5.2}
+\contentsline {subsection}{\numberline {2.2.6}Luminosity detectors}{42}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}Trigger and data acquisition system}{43}{subsection.2.2.7}
+\contentsline {subsection}{\numberline {2.2.8}ATLAS operation}{43}{subsection.2.2.8}
+\contentsline {subsection}{\numberline {2.2.9}Future ATLAS upgrades}{46}{subsection.2.2.9}
+\contentsline {chapter}{\numberline {3}Event simulation}{47}{chapter.3}
+\contentsline {section}{\numberline {3.1}Event generation}{48}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Factorisation theorem}{48}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Parton density functions}{50}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Matrix element}{50}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Parton shower}{51}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Matrix element and parton shower matching}{52}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Hadronisation}{54}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.7}Underlying event}{54}{subsection.3.1.7}
+\contentsline {subsection}{\numberline {3.1.8}Event generators}{56}{subsection.3.1.8}
+\contentsline {subsubsection}{\numberline {3.1.8.1}General-purpose Monte Carlo generators}{56}{subsubsection.3.1.8.1}
+\contentsline {subsubsection}{\numberline {3.1.8.2}Matrix Element Monte Carlo generators}{57}{subsubsection.3.1.8.2}
+\contentsline {subsubsection}{\numberline {3.1.8.3}Specialised Monte Carlo generators}{57}{subsubsection.3.1.8.3}
+\contentsline {section}{\numberline {3.2}Detector simulation}{57}{section.3.2}
+\contentsline {section}{\numberline {3.3}Monte Carlo corrections}{58}{section.3.3}
+\contentsline {section}{\numberline {3.4}Monte Carlo validation procedure}{59}{section.3.4}
+\contentsline {chapter}{\numberline {4}Event reconstruction}{61}{chapter.4}
+\contentsline {section}{\numberline {4.1}Tracks}{62}{section.4.1}
+\contentsline {section}{\numberline {4.2}Primary vertices}{63}{section.4.2}
+\contentsline {section}{\numberline {4.3}Leptons}{64}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Electrons}{64}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Muons}{68}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Jets}{71}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Topoclusters}{71}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Jet finding}{71}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Jet calibration}{72}{subsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.3.1}Origin correction}{73}{subsubsection.4.4.3.1}
+\contentsline {subsubsection}{\numberline {4.4.3.2}Pileup correction}{73}{subsubsection.4.4.3.2}
+\contentsline {subsubsection}{\numberline {4.4.3.3}Jet energy scale and $\eta $ correction}{74}{subsubsection.4.4.3.3}
+\contentsline {subsubsection}{\numberline {4.4.3.4}Global sequential calibration}{75}{subsubsection.4.4.3.4}
+\contentsline {subsubsection}{\numberline {4.4.3.5}In-situ jet calibration}{75}{subsubsection.4.4.3.5}
+\contentsline {subsubsection}{\numberline {4.4.3.6}Jet energy scale uncertainties}{76}{subsubsection.4.4.3.6}
+\contentsline {subsubsection}{\numberline {4.4.3.7}Jet energy resolution}{77}{subsubsection.4.4.3.7}
+\contentsline {subsubsection}{\numberline {4.4.3.8}Jet cleaning}{77}{subsubsection.4.4.3.8}
+\contentsline {subsubsection}{\numberline {4.4.3.9}Jet vertex tagger}{78}{subsubsection.4.4.3.9}
+\contentsline {subsection}{\numberline {4.4.4}Jet re-clustering}{79}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}$b$-tagging}{83}{subsection.4.4.5}
+\contentsline {subsubsection}{\numberline {4.4.5.1}$b$-tagging calibration}{85}{subsubsection.4.4.5.1}
+\contentsline {section}{\numberline {4.5}Missing transverse energy}{87}{section.4.5}
+\contentsline {chapter}{\numberline {5}Samples and tools}{91}{chapter.5}
+\contentsline {section}{\numberline {5.1}Data sample}{92}{section.5.1}
+\contentsline {section}{\numberline {5.2}Signal and background modelling}{92}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}$t\mathaccentV {bar}016{t}$+jets production}{93}{subsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.1.1}$t\mathaccentV {bar}016{t}$+light-jets}{94}{subsubsection.5.2.1.1}
+\contentsline {subsubsection}{\numberline {5.2.1.2}$t\mathaccentV {bar}016{t}+\ge 1b$}{95}{subsubsection.5.2.1.2}
+\contentsline {subsubsection}{\numberline {5.2.1.3}$t\mathaccentV {bar}016{t}+\ge 1c$}{99}{subsubsection.5.2.1.3}
+\contentsline {subsection}{\numberline {5.2.2}$W/Z$+jets production}{99}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Single top-quark production}{99}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Diboson production}{99}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}$t\mathaccentV {bar}016{t}V$ production}{100}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Multijet production}{100}{subsection.5.2.6}
+\contentsline {subsection}{\numberline {5.2.7}Signal modelling}{101}{subsection.5.2.7}
+\contentsline {subsubsection}{\numberline {5.2.7.1}$t\mathaccentV {bar}016{t}H$ production}{101}{subsubsection.5.2.7.1}
+\contentsline {subsubsection}{\numberline {5.2.7.2}Vector-like quark pair production }{101}{subsubsection.5.2.7.2}
+\contentsline {subsubsection}{\numberline {5.2.7.3}Four-top-quark production}{101}{subsubsection.5.2.7.3}
+\contentsline {subsubsection}{\numberline {5.2.7.4}Associated production of heavy Higgs bosons}{102}{subsubsection.5.2.7.4}
+\contentsline {section}{\numberline {5.3}Tag rate function method}{102}{section.5.3}
+\contentsline {section}{\numberline {5.4}Statistical tools}{104}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}$CL_{s}$ procedure}{105}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Profile likelihood ratio}{105}{subsection.5.4.2}
+\contentsline {chapter}{\numberline {6}Search for new phenomena in \relax \mathversion {bold}{$t\mathaccentV {bar}016{t}$} final states with additional heavy-flavour jets}{109}{chapter.6}
+\contentsline {section}{\numberline {6.1}Event preselection}{110}{section.6.1}
+\contentsline {section}{\numberline {6.2}Comparison between data and prediction}{112}{section.6.2}
+\contentsline {section}{\numberline {6.3}Analysis strategy and event categorisation}{112}{section.6.3}
+\contentsline {section}{\numberline {6.4}Discriminating variable: $m_{\rm eff}$}{117}{section.6.4}
+\contentsline {section}{\numberline {6.5}The fit model}{117}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Systematic uncertainties}{123}{subsection.6.5.1}
+\contentsline {subsubsection}{\numberline {6.5.1.1}Luminosity}{123}{subsubsection.6.5.1.1}
+\contentsline {subsubsection}{\numberline {6.5.1.2}Pileup}{123}{subsubsection.6.5.1.2}
+\contentsline {subsubsection}{\numberline {6.5.1.3}Reconstructed objects}{123}{subsubsection.6.5.1.3}
+\contentsline {subsubsection}{\numberline {6.5.1.4}$t\mathaccentV {bar}016{t}$ modelling}{124}{subsubsection.6.5.1.4}
+\contentsline {subsubsection}{\numberline {6.5.1.5}$V$+jets modelling}{128}{subsubsection.6.5.1.5}
+\contentsline {subsubsection}{\numberline {6.5.1.6}Single-top-quark modelling}{128}{subsubsection.6.5.1.6}
+\contentsline {subsubsection}{\numberline {6.5.1.7}Diboson modelling}{129}{subsubsection.6.5.1.7}
+\contentsline {subsubsection}{\numberline {6.5.1.8}$tt$+$X$, $X=V$, $H$, $t\mathaccentV {bar}016{t}$ modelling}{129}{subsubsection.6.5.1.8}
+\contentsline {subsubsection}{\numberline {6.5.1.9}Multijet modelling}{129}{subsubsection.6.5.1.9}
+\contentsline {subsection}{\numberline {6.5.2}Expected fit performance}{129}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.3}Fit results}{131}{subsection.6.5.3}
+\contentsline {section}{\numberline {6.6}Limits on $T\mathaccentV {bar}016{T}$ production}{138}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Comparison with other Run 2 searches}{140}{subsection.6.6.1}
+\contentsline {section}{\numberline {6.7}Limits on $t\mathaccentV {bar}016{t}t\mathaccentV {bar}016{t}$ production}{142}{section.6.7}
+\contentsline {section}{\numberline {6.8}Limits on associated heavy Higgs-boson production}{144}{section.6.8}
+\contentsline {section}{\numberline {6.9}Future improvements}{146}{section.6.9}
+\contentsline {chapter}{\numberline {7}Search for \relax \mathversion {bold}{$t\mathaccentV {bar}016{t}H$} production}{149}{chapter.7}
+\contentsline {section}{\numberline {7.1}Event preselection}{150}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Comparison between data and prediction}{150}{subsection.7.1.1}
+\contentsline {section}{\numberline {7.2}Analysis strategy and event categorisation}{150}{section.7.2}
+\contentsline {section}{\numberline {7.3}Reconstruction and discriminating variable}{152}{section.7.3}
+\contentsline {section}{\numberline {7.4}The fit model}{154}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Systematic uncertainties}{154}{subsection.7.4.1}
+\contentsline {subsubsection}{\numberline {7.4.1.1}$t\mathaccentV {bar}016{t}$ modelling}{154}{subsubsection.7.4.1.1}
+\contentsline {subsubsection}{\numberline {7.4.1.2}$W/Z$+jets modelling}{156}{subsubsection.7.4.1.2}
+\contentsline {subsubsection}{\numberline {7.4.1.3}Single-top-quark modelling}{157}{subsubsection.7.4.1.3}
+\contentsline {subsubsection}{\numberline {7.4.1.4}$t\mathaccentV {bar}016{t}+V$ modelling uncertainties}{157}{subsubsection.7.4.1.4}
+\contentsline {subsubsection}{\numberline {7.4.1.5}Multijet modelling}{157}{subsubsection.7.4.1.5}
+\contentsline {subsubsection}{\numberline {7.4.1.6}Signal modelling}{157}{subsubsection.7.4.1.6}
+\contentsline {subsection}{\numberline {7.4.2}Fit results}{157}{subsection.7.4.2}
+\contentsline {section}{\numberline {7.5}Limits on $t\mathaccentV {bar}016{t}H$ production}{159}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Comparison with other analyses}{161}{subsection.7.5.1}
+\contentsline {section}{\numberline {7.6}Future improvements}{167}{section.7.6}
+\contentsline {starchapter}{Conclusions}{169}{chapter*.144}
+\partbegin 
+\contentsline {chapter}{\numberline {A}Light CP-odd scalar search in top-quark pair associated production at the LHC}{173}{appendix.A}
+\contentsline {section}{\numberline {A.1}Signal and background modelling}{173}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Signal modelling}{174}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Background modelling}{175}{subsection.A.1.2}
+\contentsline {section}{\numberline {A.2}Experimental analysis}{175}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Event reconstruction}{175}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Analysis strategy}{176}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.3}Systematic uncertainties}{177}{subsection.A.2.3}
+\contentsline {section}{\numberline {A.3}Limits on a light CP-odd scalar}{179}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Interpretation of the limits}{180}{subsection.A.3.1}
+\contentsline {chapter}{\numberline {B}Glossary}{181}{appendix.B}
+\contentsline {chapter}{Bibliography}{185}{appendix*.154}
+\contentsline {starchapter}{Acknowledgements}{201}{appendix*.155}

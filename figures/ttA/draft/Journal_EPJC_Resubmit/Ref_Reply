@@ -1,0 +1,35 @@
+Dear Editor,
+
+thank you very much for your report letter from 3rd of September.
+We have addressed the comments raised by the referee,
+as indicated in the reply to the referee attached below.
+
+With the clarifications in the reply and modifications in the revised version,
+we hope that the manuscript is suitable for publication in EPJC.
+
+Yours sincerely,
+
+Aurelio, Mirko, Trisha, Tao and Michael
+
+
+========================
+= Reply to the referee =
+========================
+
+We thank the referee for carefully reading of the manuscript
+and giving helpful suggestions that in our opinion improved the quality of the paper.
+We have attached below our reply to the referee's comments.
+
+========
+
+Comments to the Author
+
+I have a few minor concerns which are all linked.  If the only degrees of freedom considered at these low energies are the SM states and the singlet pseudoscalar A, then due to EW symmetry the operator coupling A to quarks should be thought of as a higher dimension operator.  I.e. something like: A H Q gamma_5 U^c/Lambda, rather than just writing A T gamma_5 Tbar.  This is not a problem for low energy measurements, however at high energies, such as the higher p_T tails in this analysis, this description may break down. It would be good to know if the authors have considered this as a limitation on the search, and if so it would be useful to have a few words on this.
+
+Of course, one could then argue that this isn't a problem because at the relevant energies the full UV-completion, such as a 2HDM may kick in.  However, the new states in the UV-completion may contribute to the signal region and change the conclusions regarding sensitivity.  The bump-hunt nature of the analysis likely ameliorates most of this issue as heavy resonances do not enter the low energy mass window, however there other ways in which the UV-completion may be relevant.  First, it may, and in most cases does, modify the Higgs couplings to ttbar and bbar.  The Higgs is a background component to the search (contained in tt+X), thus modifying the couplings modifies this background estimate, although I don't think this is too much of a concern though because tt+X is subdominant.  Second, even far off-shell a resonance may contribute non-negligibly to a signal region if it has large enough couplings to ttbar and bbar.  Although the authors do apply the limits on the pseudoscalar couplings to the pseudoscalars contained within various UV-completions (as well as considering Higgs decays h->AA), it would be useful to have some words of the expected validity of the search itself whenever a full UV-completion is introduced.
+
+> We agree with the referee that all comments are related and that some clarification is needed regarding the validity of the simplified model approach and scope of the analysis. We have included a small paragraph at the end of the simplified model section, which we reproduce here:
+
+“The purpose of our simplified model approach is to explicitly include the degrees of freedom of a UV complete model that contribute to the process of interest, i.e. the process $pp \to t\bar{t} A \to t\bar{t}b\bar{b}$. Hence, the CP-odd scalar $A$ and its couplings to top and bottom quarks are to be understood as residual low-energy states and interactions of well-defined UV models.\footnote{For a brief discussion of the limitations of simplified models see Ref. [34].} To minimise potential contributions of electroweak-scale resonances to our signal region we use a ``bump hunt'' inspired reconstruction approach, as discussed in Secs. III-IV.“
+
+> In essence, a simplified model is a means of communication between a UV complete theory and a low-scale measurement. The degrees of freedom that contribute to a specific process at hand, here pp->ttA->ttbb, are explicitly included in the Lagrangian. Hence, the interactions and degrees of freedom included are considered to be a subset of a renormalisable UV theory, although effective interactions might be covered as well if the scale for the operators is large enough. When adding terms to the Lagrangian in a selective way, one has to take care of the theoretical consistency of the Lagrangian, e.g. unitarity of the scattering amplitude of the process. If other states present in the model were to pollute the signal region one would leave the validity range of the chosen simplified model ansatz. However in our analysis all of these issues are resolved by the smallness of the bottom quark Yukawa coupling. It renders the amplitude non-unitarity violating for energies of the process, e.g. in tt->A->bb, and keeps our resonance narrow, thereby minimising interference effects with other electroweak scale resonances or the background. Thus, we conclude the performed analysis covers a wide range of UV models.

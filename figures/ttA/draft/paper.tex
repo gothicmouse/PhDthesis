@@ -1,0 +1,910 @@
+\documentclass[preprintnumbers,superscriptaddress,nofootinbib,aps,prd,floatfix]{revtex4}
+
+\addtolength{\topmargin}{0.4in}
+
+\usepackage{amsmath,slashed}
+\usepackage{graphicx}
+
+%\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+%\hyphenation{pro-pa-ga-tors}
+%\hyphenation{func-tions}pseudo-scalar
+\newcommand{\rig}{\rightarrow}
+\newcommand{\lrig}{\longrightarrow}
+\renewcommand{\d}{{\mathrm{d}}}
+\newcommand{\be}{\begin{eqnarray*}}
+\newcommand{\ee}{\end{eqnarray*}}
+\newcommand{\gl}[1]{(\ref{#1})}
+\newcommand{\ta}[2]{ \frac{ {\mathrm{d}} #1 } {{\mathrm{d}} #2}}
+\newcommand{\bee}{\begin{eqnarray}}
+\newcommand{\eee}{\end{eqnarray}}
+\newcommand{\beeq}{\begin{equation}}
+\newcommand{\eeeq}{\end{equation}}
+\newcommand{\gev}{{\rm{GeV}}}
+\newcommand{\GeV}{~GeV}
+\newcommand{\tev}{{\rm{TeV}}}
+\newcommand{\fb}{{\rm{fb}}}
+\newcommand{\ifb}{{\rm{fb}}^{-1}}
+\newcommand{\pb}{{\rm{pb}}}
+\newcommand{\mc}{\mathcal}
+\newcommand{\mr}{\mathrm}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\pt}{p_{\rm{T}}}
+
+\newcommand{\ttbar}{\ensuremath{t\bar{t}}}
+
+\def\spa#1.#2{\left\langle#1#2\right\rangle}
+\def\spb#1.#2{\left[#1#2\right]}
+\def\lor#1.#2{\left(#1#2\right)}
+\def\sand#1.#2.#3{%
+\left\langle\smash{#1}{\vphantom1}^{-}\right|{#2}%
+\left|\smash{#3}{\vphantom1}^{-}\right\rangle}
+\def\sandp#1.#2.#3{%
+\left\langle\smash{#1}{\vphantom1}^{-}\right|{#2}%
+\left|\smash{#3}{\vphantom1}^{+}\right\rangle}
+\def\sandpp#1.#2.#3{%
+\left\langle\smash{#1}{\vphantom1}^{+}\right|{#2}%
+\left|\smash{#3}{\vphantom1}^{+}\right\rangle}
+\def\sandpm#1.#2.#3{%
+\left\langle\smash{#1}{\vphantom1}^{+}\right|{#2}%
+\left|\smash{#3}{\vphantom1}^{-}\right\rangle}
+\def\sandmp#1.#2.#3{%
+\left\langle\smash{#1}{\vphantom1}^{-}\right|{#2}%
+\left|\smash{#3}{\vphantom1}^{+}\right\rangle}
+\def\spab#1.#2.#3{\langle#1|#2|#3]}
+\def\spba#1.#2.#3{[#1|#2|#3\rangle}
+\def\spaa#1.#2.#3{\langle#1|#2|#3\rangle}
+\def\spbb#1.#2.#3{[#1|#2|#3]}
+\def\spaxa#1.#2.#3.#4{\langle#1|#2|#3|#4\rangle}
+\def\spbxb#1.#2.#3.#4{[#1|#2|#3|#4]}
+
+%\renewcommand{\vec}{\bf}
+
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+
+
+\newcommand{\cp}{${\cal{CP}}$}
+\newcommand{\cpeven}{${\cal{CP}}$-even }
+\newcommand{\cpodd}{${\cal{CP}}$-odd }
+\newcommand{\emt}{$\times 10^{-3}$}
+\newcommand{\emfo}{$\times 10^{-4}$}
+\newcommand{\emfi}{$\times 10^{-5}$}
+
+\newcommand{\msmod}[1]{{\color{red}{#1}}}
+
+\usepackage{color}
+\newcommand{\MSP}[1]{{\color{red}{MSP:~#1}}}
+
+\begin{document}
+
+\title{Probing a light CP-odd scalar in di-top-associated production at the LHC}
+
+\begin{abstract}
+\noindent 
+CP-odd scalars are an integral part of many extensions of the Standard Model. Recently, electroweak-scale pseudoscalars have received increased attention in explaining the diffuse gamma-ray excess from the Galactic Centre.
+Elusive due to absence of direct couplings to gauge bosons, these particles receive only weak constraints from direct searches at LEP or searches performed during the first LHC runs. We investigate the LHC's sensitivity in observing a CP-odd scalar in di-top associated production in the mass range $20 \leq m_A \leq 100$ GeV using jet substructure based reconstruction techniques. We parametrise the scalar's interactions using a simplified model approach and relate the 
+obtained upper limits on couplings within type-I and type-II 2HDMs as well as the NMSSM. We find that in di-top-associated production, experiments at the LHC can set tight limits on CP-odd scalars that fit the Galactic Centre excess.  However, direct sensitivity to light CP-odd scalars from the NMSSM proves to remain challenging.  
+\end{abstract}
+
+\author{Mirkoantonio Casolino}
+\affiliation{Institut de F\'{\i}sica d'Altes Energies (IFAE), E-08193 Bellaterra, Barcelona, Spain}
+
+\author{Trisha Farooque}
+\affiliation{Institut de F\'{\i}sica d'Altes Energies (IFAE), E-08193 Bellaterra, Barcelona, Spain}
+
+\author{Aurelio Juste}
+\affiliation{Institut de F\'{\i}sica d'Altes Energies (IFAE), E-08193 Bellaterra, Barcelona, Spain}
+\affiliation{Instituci\'o Catalana de Recerca i Estudis Avan\c{c}ats (ICREA), E-08010 Barcelona, Spain}
+
+\author{Tao Liu}
+\affiliation{Department of Physics, The Hong Kong University of Science and Technology, Clear Water Bay, Kowloon, Hong Kong S.A.R., P.R.C.}
+%
+\author{Michael Spannowsky}
+\affiliation{Institute for Particle Physics Phenomenology, Department of Physics,\\Durham University, DH1 3LE, United Kingdom}
+%
+
+\pacs{}
+\preprint{IPPP/15/37}
+\preprint{DCPT/15/74}
+
+
+\maketitle
+
+
+\input{intro.tex}
+
+\input{sec2_model.tex}
+
+\input{sec3.tex}
+
+\input{sec4.tex}
+
+\input{sec5_limits.tex}
+
+\input{sec6_interp.tex}
+
+%\begin{center}
+%\begin{figure} 
+%\includegraphics[width=8cm]{ggHZ_inc.eps}
+%\caption{Inclusive cross sections for $gg\rightarrow HZ$ in MCFM} 
+%\label{fig:ggHZinc}
+%\end{figure}
+%\end{center}
+
+
+\input{sec7_concl.tex}
+
+
+\section{Acknowledgments}
+This research was supported in part by the European Commission through the 'HiggsTools' Initial Training Network PITN-GA-2012-316704 (M.S.) and 
+by the Spanish Ministerio de Econom\'ia y Competitividad  under projects FPA2012-38713 and Centro de Excelencia Severo Ochoa SEV-2012-0234 (M.C., T.F. and A.J). T.L. is supported by his start-up fund at the HKUST. T.L.  would also like to thank Y. Jiang for useful discussions and acknowledge the hospitality of the Jockey Club Institute for Advanced Study, HKUST, where part of this work was completed. 
+
+
+\appendix
+\label{app:amplitudes}
+
+
+\bibliography{ref}
+\bibliographystyle{ArXiv}
+\begin{thebibliography}{99}
+
+
+\bibitem{Chatrchyan:2012ufa}
+  S.~Chatrchyan {\it et al.}  [CMS Collaboration],
+  %``Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC,''
+  Phys.\ Lett.\ B {\bf 716} (2012) 30.
+  %[arXiv:1207.7235 [hep-ex]].
+  %%CITATION = ARXIV:1207.7235;%%
+  %1308 citations counted in INSPIRE as of 09 Jul 2013
+
+\bibitem{Aad:2012tfa}
+  G.~Aad {\it et al.}  [ATLAS Collaboration],
+  %``Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC,''
+  Phys.\ Lett.\ B {\bf 716} (2012) 1.
+  %[arXiv:1207.7214 [hep-ex]].
+  %%CITATION = ARXIV:1207.7214;%%
+  %1323 citations counted in INSPIRE as of 09 Jul 2013
+
+\bibitem{orig} 
+  F.~Englert and R.~Brout,
+  %``Broken Symmetry and the Mass of Gauge Vector Mesons,''
+  Phys.\ Rev.\ Lett.\  {\bf 13} (1964) 321.
+  %%CITATION = PRLTA,13,321;%%
+  P.~W.~Higgs,
+  %``Broken symmetries, massless particles and gauge fields,''
+  Phys.\ Lett.\  {\bf 12} (1964) 132 and
+  %%CITATION = PHLTA,12,132;%%
+  %``Broken Symmetries and the Masses of Gauge Bosons,''
+  Phys.\ Rev.\ Lett.\  {\bf 13} (1964) 508.
+  %%CITATION = PRLTA,13,508;%%
+  G.~S.~Guralnik, C.~R.~Hagen and T.~W.~B.~Kibble,
+  %``Global Conservation Laws and Massless Particles,''
+  Phys.\ Rev.\ Lett.\  {\bf 13} (1964) 585.
+  %%CITATION = PRLTA,13,585;%%
+
+
+
+%\cite{Goodenough:2009gk}
+\bibitem{Goodenough:2009gk} 
+  L.~Goodenough and D.~Hooper,
+  %``Possible Evidence For Dark Matter Annihilation In The Inner Milky Way From The Fermi Gamma Ray Space Telescope,''
+  arXiv:0910.2998 [hep-ph].
+  %%CITATION = ARXIV:0910.2998;%%
+  %154 citations counted in INSPIRE as of 15 juin 2015    
+
+
+%\cite{Hooper:2010mq}
+\bibitem{Hooper:2010mq} 
+  D.~Hooper and L.~Goodenough,
+  %``Dark Matter Annihilation in The Galactic Center As Seen by the Fermi Gamma Ray Space Telescope,''
+  Phys.\ Lett.\ B {\bf 697}, 412 (2011)
+  [arXiv:1010.2752 [hep-ph]].
+  %%CITATION = ARXIV:1010.2752;%%
+  %276 citations counted in INSPIRE as of 15 juin 2015
+
+%\cite{Abazajian:2012pn}
+\bibitem{Abazajian:2012pn} 
+  K.~N.~Abazajian and M.~Kaplinghat,
+  %``Detection of a Gamma-Ray Source in the Galactic Center Consistent with Extended Emission from Dark Matter Annihilation and Concentrated Astrophysical Emission,''
+  Phys.\ Rev.\ D {\bf 86}, 083511 (2012)
+  [Phys.\ Rev.\ D {\bf 87}, 129902 (2013)]
+  [arXiv:1207.6047 [astro-ph.HE]].
+  %%CITATION = ARXIV:1207.6047;%%
+  %175 citations counted in INSPIRE as of 15 juin 2015 
+  
+  
+ %\cite{Daylan:2014rsa}
+\bibitem{Daylan:2014rsa} 
+  T.~Daylan, D.~P.~Finkbeiner, D.~Hooper, T.~Linden, S.~K.~N.~Portillo, N.~L.~Rodd and T.~R.~Slatyer,
+  %``The Characterization of the Gamma-Ray Signal from the Central Milky Way: A Compelling Case for Annihilating Dark Matter,''
+  arXiv:1402.6703 [astro-ph.HE].
+  %%CITATION = ARXIV:1402.6703;%%
+  %168 citations counted in INSPIRE as of 15 juin 2015
+
+%\cite{Boehm:2014hva}
+\bibitem{Boehm:2014hva} 
+  C.~Boehm, M.~J.~Dolan, C.~McCabe, M.~Spannowsky and C.~J.~Wallace,
+  %``Extended gamma-ray emission from Coy Dark Matter,''
+  JCAP {\bf 1405}, 009 (2014)
+  [arXiv:1401.6458 [hep-ph]].
+  %%CITATION = ARXIV:1401.6458;%%
+  %34 citations counted in INSPIRE as of 24 Oct 2014
+
+\bibitem{Hektor:2014kga} 
+  A.~Hektor and L.~Marzola,
+  %``Coy Dark Matter and the anomalous magnetic moment,''
+  Phys.\ Rev.\ D {\bf 90}, no. 5, 053007 (2014)
+  [arXiv:1403.3401 [hep-ph]].
+  %%CITATION = ARXIV:1403.3401;%%
+  %14 citations counted in INSPIRE as of 15 juin 2015
+   
+ %\cite{Arina:2014yna}
+\bibitem{Arina:2014yna} 
+  C.~Arina, E.~Del Nobile and P.~Panci,
+  %``Dark Matter with Pseudoscalar-Mediated Interactions Explains the DAMA Signal and the Galactic Center Excess,''
+  Phys.\ Rev.\ Lett.\  {\bf 114}, 011301 (2015)
+  [arXiv:1406.5542 [hep-ph]].
+  %%CITATION = ARXIV:1406.5542;%%
+  %39 citations counted in INSPIRE as of 15 Jun 2015
+
+
+%\cite{Cheung:2014lqa}
+\bibitem{Cheung:2014lqa} 
+  C.~Cheung, M.~Papucci, D.~Sanford, N.~R.~Shah and K.~M.~Zurek,
+  %``NMSSM Interpretation of the Galactic Center Excess,''
+  Phys.\ Rev.\ D {\bf 90}, no. 7, 075011 (2014)
+  [arXiv:1406.6372 [hep-ph]].
+  %%CITATION = ARXIV:1406.6372;%%
+  %41 citations counted in INSPIRE as of 24 Jul 2015
+
+
+
+%\cite{Huang:2014cla}
+\bibitem{Huang:2014cla} 
+  J.~Huang, T.~Liu, L.~T.~Wang and F.~Yu,
+  %``Supersymmetric subelectroweak scale dark matter, the Galactic Center gamma-ray excess, and exotic decays of the 125 GeV Higgs boson,''
+  Phys.\ Rev.\ D {\bf 90}, no. 11, 115006 (2014)
+  [arXiv:1407.0038 [hep-ph]].
+  %%CITATION = ARXIV:1407.0038;%%
+  %31 citations counted in INSPIRE as of 24 juil. 2015
+
+
+%\cite{Malik:2014ggr}
+\bibitem{Malik:2014ggr} 
+  S.~Malik, C.~McCabe, H.~Araujo, A.~Belyaev, C.~Boehm, J.~Brooke, O.~Buchmueller and G.~Davies {\it et al.},
+  %``Interplay and Characterization of Dark Matter Searches at Colliders and in Direct Detection Experiments,''
+  arXiv:1409.4075 [hep-ex].
+  %%CITATION = ARXIV:1409.4075;%%
+  %26 citations counted in INSPIRE as of 23 juin 2015
+
+%\cite{Abdallah:2014hon}
+\bibitem{Abdallah:2014hon} 
+  J.~Abdallah, A.~Ashkenazi, A.~Boveia, G.~Busoni, A.~De Simone, C.~Doglioni, A.~Efrati and E.~Etzion {\it et al.},
+  %``Simplified Models for Dark Matter and Missing Energy Searches at the LHC,''
+  arXiv:1409.2893 [hep-ph].
+  %%CITATION = ARXIV:1409.2893;%%
+  %38 citations counted in INSPIRE as of 23 Jun 2015
+
+%\cite{Craig:2015jba}
+\bibitem{Craig:2015jba} 
+  N.~Craig, F.~D'Eramo, P.~Draper, S.~Thomas and H.~Zhang,
+  %``The Hunt for the Rest of the Higgs Bosons,''
+  JHEP {\bf 1506}, 137 (2015)
+  [arXiv:1504.04630 [hep-ph]].
+  %%CITATION = ARXIV:1504.04630;%%
+  %11 citations counted in INSPIRE as of 24 juil. 2015
+
+%\cite{Hajer:2015gka}
+\bibitem{Hajer:2015gka} 
+  J.~Hajer, Y.~Y.~Li, T.~Liu and J.~F.~H.~Shiu,
+  %``Heavy Higgs Bosons at 14 TeV and 100 TeV,''
+  arXiv:1504.07617 [hep-ph].
+  %%CITATION = ARXIV:1504.07617;%%
+  %4 citations counted in INSPIRE as of 24 juil. 2015
+
+%\cite{Dolan:2014ska}
+\bibitem{Dolan:2014ska} 
+  M.~J.~Dolan, C.~McCabe, F.~Kahlhoefer and K.~Schmidt-Hoberg,
+  %``A taste of dark matter: Flavour constraints on pseudoscalar mediators,''
+  JHEP {\bf 1503}, 171 (2015)
+  [arXiv:1412.5174 [hep-ph]].
+  %%CITATION = ARXIV:1412.5174;%%
+  %17 citations counted in INSPIRE as of 15 Jun 2015
+    
+%\cite{D'Ambrosio:2002ex}
+\bibitem{D'Ambrosio:2002ex} 
+  G.~D'Ambrosio, G.~F.~Giudice, G.~Isidori and A.~Strumia,
+  %``Minimal flavor violation: An Effective field theory approach,''
+  Nucl.\ Phys.\ B {\bf 645}, 155 (2002)
+  [hep-ph/0207036].
+  %%CITATION = HEP-PH/0207036;%%
+  %904 citations counted in INSPIRE as of 27 Oct 2014
+
+%\cite{Klamke:2007cu}
+\bibitem{Klamke:2007cu} 
+  G.~Klamke and D.~Zeppenfeld,
+  %``Higgs plus two jet production via gluon fusion as a signal at the CERN LHC,''
+  JHEP {\bf 0704}, 052 (2007)
+  [hep-ph/0703202 [HEP-PH]].
+  %%CITATION = HEP-PH/0703202;%%
+  %73 citations counted in INSPIRE as of 23 Jun 2015
+
+%\cite{Dolan:2014upa}
+\bibitem{Dolan:2014upa} 
+  M.~J.~Dolan, P.~Harris, M.~Jankowiak and M.~Spannowsky,
+  %``Constraining $CP$-violating Higgs Sectors at the LHC using gluon fusion,''
+  Phys.\ Rev.\ D {\bf 90}, no. 7, 073008 (2014)
+  [arXiv:1406.3322 [hep-ph]].
+  %%CITATION = ARXIV:1406.3322;%%
+  %18 citations counted in INSPIRE as of 23 juin 2015
+
+%\cite{Alves:2011wf}
+\bibitem{Alves:2011wf} 
+  D.~Alves {\it et al.} [LHC New Physics Working Group Collaboration],
+  %``Simplified Models for LHC New Physics Searches,''
+  J.\ Phys.\ G {\bf 39}, 105005 (2012)
+  [arXiv:1105.2838 [hep-ph]].
+  %%CITATION = ARXIV:1105.2838;%%
+  %268 citations counted in INSPIRE as of 22 juil. 2015
+  
+%\cite{Buckley:2014fba}
+\bibitem{Buckley:2014fba} 
+  M.~R.~Buckley, D.~Feld and D.~Goncalves,
+  %``Scalar Simplified Models for Dark Matter,''
+  Phys.\ Rev.\ D {\bf 91}, no. 1, 015017 (2015)
+  [arXiv:1410.6497 [hep-ph]].
+  %%CITATION = ARXIV:1410.6497;%%
+  %21 citations counted in INSPIRE as of 23 Jun 2015  
+
+%\cite{Harris:2014hga}
+\bibitem{Harris:2014hga} 
+  P.~Harris, V.~V.~Khoze, M.~Spannowsky and C.~Williams,
+  %``Constraining Dark Sectors at Colliders: Beyond the Effective Theory Approach,''
+  Phys.\ Rev.\ D {\bf 91}, no. 5, 055009 (2015)
+  [arXiv:1411.0535 [hep-ph]].
+  %%CITATION = ARXIV:1411.0535;%%
+  %18 citations counted in INSPIRE as of 23 Jun 2015  
+
+%\cite{Haisch:2015ioa}
+\bibitem{Haisch:2015ioa} 
+  U.~Haisch and E.~Re,
+  %``Simplified dark matter top-quark interactions at the LHC,''
+  JHEP {\bf 1506}, 078 (2015)
+  [arXiv:1503.00691 [hep-ph]].
+  %%CITATION = ARXIV:1503.00691;%%
+  %8 citations counted in INSPIRE as of 23 Jun 2015  
+  
+  
+%\cite{Khoze:2015sra}
+\bibitem{Khoze:2015sra} 
+  V.~V.~Khoze, G.~Ro and M.~Spannowsky,
+  %``Spectroscopy of Scalar Mediators to Dark Matter at the LHC and at 100 TeV,''
+  arXiv:1505.03019 [hep-ph].
+  %%CITATION = ARXIV:1505.03019;%%
+  %1 citations counted in INSPIRE as of 23 juin 2015
+
+
+%\cite{Alwall:2011uj}
+\bibitem{Alwall:2011uj} 
+  J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer and T.~Stelzer,
+  %``MadGraph 5 : Going Beyond,''
+  JHEP {\bf 1106}, 128 (2011)
+  [arXiv:1106.0522 [hep-ph]].
+  %%CITATION = ARXIV:1106.0522;%%
+  %1373 citations counted in INSPIRE as of 27 Oct 2014
+ 
+  
+ %\cite{Nadolsky:2008zw}
+\bibitem{Nadolsky:2008zw}
+  P.~M.~Nadolsky, H.~L.~Lai, Q.~H.~Cao, J.~Huston, J.~Pumplin, D.~Stump, W.~K.~Tung and C.-P.~Yuan,
+  %``Implications of CTEQ global analysis for collider observables,''
+  Phys.\ Rev.\ D {\bf 78} (2008) 013004
+  [arXiv:0802.0007 [hep-ph]].
+  %%CITATION = ARXIV:0802.0007;%%
+  %1384 citations counted in INSPIRE as of 17 Jun 2015
+
+%\cite{Sjostrand:2006za}
+\bibitem{Sjostrand:2006za}
+  T.~Sjostrand, S.~Mrenna and P.~Z.~Skands,
+  %``PYTHIA 6.4 Physics and Manual,''
+  JHEP {\bf 0605} (2006) 026
+  [hep-ph/0603175].
+  %%CITATION = HEP-PH/0603175;%%
+  %6322 citations counted in INSPIRE as of 17 Jun 2015 
+  
+%\cite{Skands:2010ak}
+\bibitem{Skands:2010ak}
+  P.~Z.~Skands,
+  %``Tuning Monte Carlo Generators: The Perugia Tunes,''
+  Phys.\ Rev.\ D {\bf 82} (2010) 074018
+  [arXiv:1005.3457 [hep-ph]].
+  %%CITATION = ARXIV:1005.3457;%%
+  %562 citations counted in INSPIRE as of 17 Jun 2015
+
+%\cite{Alloul:2013bka}
+\bibitem{Alloul:2013bka}
+  A.~Alloul, N.~D.~Christensen, C.~Degrande, C.~Duhr and B.~Fuks,
+  %``FeynRules  2.0 - A complete toolbox for tree-level phenomenology,''
+  Comput.\ Phys.\ Commun.\  {\bf 185} (2014) 2250
+  [arXiv:1310.1921 [hep-ph]].
+  %%CITATION = ARXIV:1310.1921;%%
+  %204 citations counted in INSPIRE as of 27 Jun 2015
+
+%\cite{Degrande:2011ua}
+\bibitem{Degrande:2011ua}
+  C.~Degrande, C.~Duhr, B.~Fuks, D.~Grellscheid, O.~Mattelaer and T.~Reiter,
+  %``UFO - The Universal FeynRules Output,''
+  Comput.\ Phys.\ Commun.\  {\bf 183} (2012) 1201
+  [arXiv:1108.2040 [hep-ph]].
+  %%CITATION = ARXIV:1108.2040;%%
+  %202 citations counted in INSPIRE as of 27 Jun 2015  
+
+ %\cite{Frederix:2011zi}
+\bibitem{Frederix:2011zi} 
+  R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, R.~Pittau and P.~Torrielli,
+  %``Scalar and pseudoscalar Higgs production in association with a top-antitop pair,''
+  Phys.\ Lett.\ B {\bf 701}, 427 (2011)
+  [arXiv:1104.5613 [hep-ph]].
+  %%CITATION = ARXIV:1104.5613;%%
+  %94 citations counted in INSPIRE as of 22 Jul 2015 
+
+%\cite{Mangano:2001xp}
+\bibitem{Mangano:2001xp}
+  M.~L.~Mangano, M.~Moretti and R.~Pittau,
+  %``Multijet matrix elements and shower evolution in hadronic collisions: $W b \bar{b}$ + $n$ jets as a case study,''
+  Nucl.\ Phys.\ B {\bf 632} (2002) 343
+  [hep-ph/0108069].
+  %%CITATION = HEP-PH/0108069;%%
+  %279 citations counted in INSPIRE as of 17 Jun 2015
+  
+  
+%\cite{Czakon:2011xx}
+\bibitem{Czakon:2011xx}
+  M.~Czakon and A.~Mitov,
+  %``Top++: A Program for the Calculation of the Top-Pair Cross-Section at Hadron Colliders,''
+  Comput.\ Phys.\ Commun.\  {\bf 185} (2014) 2930
+  [arXiv:1112.5675 [hep-ph]].
+  %%CITATION = ARXIV:1112.5675;%%
+  %205 citations counted in INSPIRE as of 17 Jun 2015
+
+%\cite{Cacciari:2011hy}
+\bibitem{Cacciari:2011hy}
+  M.~Cacciari, M.~Czakon, M.~Mangano, A.~Mitov and P.~Nason,
+  %``Top-pair production at hadron colliders with next-to-next-to-leading logarithmic soft-gluon resummation,''
+  Phys.\ Lett.\ B {\bf 710} (2012) 612
+  [arXiv:1111.5869 [hep-ph]].
+  %%CITATION = ARXIV:1111.5869;%%
+  %254 citations counted in INSPIRE as of 17 Jun 2015
+  
+%\cite{Baernreuther:2012ws}
+\bibitem{Baernreuther:2012ws}
+  P.~B�rnreuther, M.~Czakon and A.~Mitov,
+  %``Percent Level Precision Physics at the Tevatron: First Genuine NNLO QCD Corrections to $q \bar{q} \to t \bar{t} + X$,''
+  Phys.\ Rev.\ Lett.\  {\bf 109} (2012) 132001
+  [arXiv:1204.5201 [hep-ph]].
+  %%CITATION = ARXIV:1204.5201;%%
+  %251 citations counted in INSPIRE as of 17 Jun 2015
+
+
+%\cite{Czakon:2012zr}
+\bibitem{Czakon:2012zr}
+  M.~Czakon and A.~Mitov,
+  %``NNLO corrections to top-pair production at hadron colliders: the all-fermionic scattering channels,''
+  JHEP {\bf 1212} (2012) 054
+  [arXiv:1207.0236 [hep-ph]].
+  %%CITATION = ARXIV:1207.0236;%%
+  %178 citations counted in INSPIRE as of 17 Jun 2015
+      
+  
+%\cite{Czakon:2012pz}
+\bibitem{Czakon:2012pz}
+  M.~Czakon and A.~Mitov,
+  %``NNLO corrections to top pair production at hadron colliders: the quark-gluon reaction,''
+  JHEP {\bf 1301} (2013) 080
+  [arXiv:1210.6832 [hep-ph]].
+  %%CITATION = ARXIV:1210.6832;%%
+  %172 citations counted in INSPIRE as of 17 Jun 2015
+
+
+%\cite{Czakon:2013goa}
+\bibitem{Czakon:2013goa}
+  M.~Czakon, P.~Fiedler and A.~Mitov,
+  %``Total Top-Quark Pair-Production Cross Section at Hadron Colliders Through $O(?\frac{4}{S})$,''
+  Phys.\ Rev.\ Lett.\  {\bf 110} (2013) 252004
+  [arXiv:1303.6254 [hep-ph]].
+  %%CITATION = ARXIV:1303.6254;%%
+  %426 citations counted in INSPIRE as of 17 Jun 2015
+
+
+%\cite{Martin:2009iq}
+\bibitem{Martin:2009iq}
+  A.~D.~Martin, W.~J.~Stirling, R.~S.~Thorne and G.~Watt,
+  %``Parton distributions for the LHC,''
+  Eur.\ Phys.\ J.\ C {\bf 63} (2009) 189
+  [arXiv:0901.0002 [hep-ph]].
+  %%CITATION = ARXIV:0901.0002;%%
+  %2719 citations counted in INSPIRE as of 17 Jun 2015
+
+
+%\cite{Martin:2009bu}
+\bibitem{Martin:2009bu}
+  A.~D.~Martin, W.~J.~Stirling, R.~S.~Thorne and G.~Watt,
+  %``Uncertainties on alpha(S) in global PDF analyses and implications for predicted hadronic cross sections,''
+  Eur.\ Phys.\ J.\ C {\bf 64} (2009) 653
+  [arXiv:0905.3531 [hep-ph]].
+  %%CITATION = ARXIV:0905.3531;%%
+  %361 citations counted in INSPIRE as of 17 Jun 2015              
+
+
+%\cite{Cacciari:2008gp}
+\bibitem{Cacciari:2008gp}
+  M.~Cacciari, G.~P.~Salam and G.~Soyez,
+  %``The Anti-k(t) jet clustering algorithm,''
+  JHEP {\bf 0804} (2008) 063
+  [arXiv:0802.1189 [hep-ph]].
+  %%CITATION = ARXIV:0802.1189;%%
+  %2807 citations counted in INSPIRE as of 17 Jun 2015
+  
+%\cite{Cacciari:2005hq}
+\bibitem{Cacciari:2005hq}
+  M.~Cacciari and G.~P.~Salam,
+  %``Dispelling the $N^{3}$ myth for the $k_t$ jet-finder,''
+  Phys.\ Lett.\ B {\bf 641} (2006) 57
+  [hep-ph/0512210].
+  %%CITATION = HEP-PH/0512210;%%
+  %1159 citations counted in INSPIRE as of 17 Jun 2015
+  
+%\cite{Cacciari:2011ma}
+\bibitem{Cacciari:2011ma}
+  M.~Cacciari, G.~P.~Salam and G.~Soyez,
+  %``FastJet User Manual,''
+  Eur.\ Phys.\ J.\ C {\bf 72} (2012) 1896
+  [arXiv:1111.6097 [hep-ph]].
+  %%CITATION = ARXIV:1111.6097;%%
+  %879 citations counted in INSPIRE as of 17 Jun 2015   
+       
+%\cite{Aad:2015gra}
+\bibitem{Aad:2015gra}
+  G.~Aad {\it et al.} [ATLAS Collaboration],
+  %``Search for the Standard Model Higgs boson produced in association with top quarks and decaying into $b\bar{b}$ in pp collisions at $\sqrt{s}$ = 8 TeV with the ATLAS detector,''
+  arXiv:1503.05066 [hep-ex].
+  %%CITATION = ARXIV:1503.05066;%%
+  %22 citations counted in INSPIRE as of 23 Jul 2015
+
+%\cite{Garzelli:2012bn}
+\bibitem{Garzelli:2012bn}
+  M.~V.~Garzelli, A.~Kardos, C.~G.~Papadopoulos and Z.~Trocsanyi,
+  %``t $\bar{t}$ $W^{+-}$ and t $\bar{t}$ Z Hadroproduction at NLO accuracy in QCD with Parton Shower and Hadronization effects,''
+  JHEP {\bf 1211} (2012) 056
+  [arXiv:1208.2665 [hep-ph]].
+  %%CITATION = ARXIV:1208.2665;%%
+  %104 citations counted in INSPIRE as of 19 Jun 2015  
+  
+%\cite{Dawson:2003zu}
+\bibitem{Dawson:2003zu}
+  S.~Dawson, C.~Jackson, L.~H.~Orr, L.~Reina and D.~Wackeroth,
+  %``Associated Higgs production with top quarks at the large hadron collider: NLO QCD corrections,''
+  Phys.\ Rev.\ D {\bf 68} (2003) 034022
+  [hep-ph/0305087].
+  %%CITATION = HEP-PH/0305087;%%
+  %189 citations counted in INSPIRE as of 19 Jun 2015
+  
+%\cite{Beenakker:2002nc}
+\bibitem{Beenakker:2002nc}
+  W.~Beenakker, S.~Dittmaier, M.~Kramer, B.~Plumper, M.~Spira and P.~M.~Zerwas,
+  %``NLO QCD corrections to t anti-t H production in hadron collisions,''
+  Nucl.\ Phys.\ B {\bf 653} (2003) 151
+  [hep-ph/0211352].
+  %%CITATION = HEP-PH/0211352;%%
+  %308 citations counted in INSPIRE as of 19 Jun 2015
+  
+%\cite{Beenakker:2001rj}
+\bibitem{Beenakker:2001rj}
+  W.~Beenakker, S.~Dittmaier, M.~Kramer, B.~Plumper, M.~Spira and P.~M.~Zerwas,
+  %``Higgs radiation off top quarks at the Tevatron and the LHC,''
+  Phys.\ Rev.\ Lett.\  {\bf 87} (2001) 201805
+  [hep-ph/0107081].
+  %%CITATION = HEP-PH/0107081;%%
+  %334 citations counted in INSPIRE as of 19 Jun 2015
+  
+%\cite{Djouadi:1997yw}
+\bibitem{Djouadi:1997yw}
+  A.~Djouadi, J.~Kalinowski and M.~Spira,
+  %``HDECAY: A Program for Higgs boson decays in the standard model and its supersymmetric extension,''
+  Comput.\ Phys.\ Commun.\  {\bf 108} (1998) 56
+  [hep-ph/9704448].
+  %%CITATION = HEP-PH/9704448;%%
+  %1243 citations counted in INSPIRE as of 19 Jun 2015
+  
+%\cite{Bredenstein:2006rh}
+\bibitem{Bredenstein:2006rh}
+  A.~Bredenstein, A.~Denner, S.~Dittmaier and M.~M.~Weber,
+  %``Precise predictions for the Higgs-boson decay H ---> WW/ZZ ---> 4 leptons,''
+  Phys.\ Rev.\ D {\bf 74} (2006) 013004
+  [hep-ph/0604011].
+  %%CITATION = HEP-PH/0604011;%%
+  %212 citations counted in INSPIRE as of 19 Jun 2015
+  
+%\cite{Actis:2008ts}
+\bibitem{Actis:2008ts}
+  S.~Actis, G.~Passarino, C.~Sturm and S.~Uccirati,
+  %``NNLO Computational Techniques: The Cases H ---> gamma gamma and H ---> g g,''
+  Nucl.\ Phys.\ B {\bf 811} (2009) 182
+  [arXiv:0809.3667 [hep-ph]].
+  %%CITATION = ARXIV:0809.3667;%%
+  %152 citations counted in INSPIRE as of 19 Jun 2015
+  
+%\cite{Denner:2011mq}
+\bibitem{Denner:2011mq}
+  A.~Denner, S.~Heinemeyer, I.~Puljak, D.~Rebuzzi and M.~Spira,
+  %``Standard Model Higgs-Boson Branching Ratios with Uncertainties,''
+  Eur.\ Phys.\ J.\ C {\bf 71} (2011) 1753
+  [arXiv:1107.5909 [hep-ph]].
+  %%CITATION = ARXIV:1107.5909;%%
+  %144 citations counted in INSPIRE as of 19 Jun 2015
+  
+%\cite{Dittmaier:2011ti}
+\bibitem{Dittmaier:2011ti}
+  S.~Dittmaier {\it et al.}  [LHC Higgs Cross Section Working Group Collaboration],
+  %``Handbook of LHC Higgs Cross Sections: 1. Inclusive Observables,''
+  arXiv:1101.0593 [hep-ph].
+  %%CITATION = ARXIV:1101.0593;%%
+  %916 citations counted in INSPIRE as of 19 Jun 2015                
+
+%\cite{Cacciari:2007fd}
+\bibitem{Cacciari:2007fd}
+  M.~Cacciari and G.~P.~Salam,
+  %``Pileup subtraction using jet areas,''
+  Phys.\ Lett.\ B {\bf 659} (2008) 119
+  [arXiv:0707.1378 [hep-ph]].
+  %%CITATION = ARXIV:0707.1378;%%
+  %522 citations counted in INSPIRE as of 23 Jul 2015
+
+%\cite{Cacciari:2008gn}
+\bibitem{Cacciari:2008gn}
+  M.~Cacciari, G.~P.~Salam and G.~Soyez,
+  %``The Catchment Area of Jets,''
+  JHEP {\bf 0804} (2008) 005
+  [arXiv:0802.1188 [hep-ph]].
+  %%CITATION = ARXIV:0802.1188;%%
+  %358 citations counted in INSPIRE as of 23 Jul 2015
+  
+ %\cite{Dokshitzer:1997in}
+\bibitem{Dokshitzer:1997in}
+  Y.~L.~Dokshitzer, G.~D.~Leder, S.~Moretti and B.~R.~Webber,
+  %``Better jet clustering algorithms,''
+  JHEP {\bf 9708} (1997) 001
+  [hep-ph/9707323].
+  %%CITATION = HEP-PH/9707323;%%
+  %541 citations counted in INSPIRE as of 17 Jun 2015 
+  
+ %\cite{Wobisch:1998wt}
+\bibitem{Wobisch:1998wt}
+  M.~Wobisch and T.~Wengler,
+  %``Hadronization corrections to jet cross-sections in deep inelastic scattering,''
+  In *Hamburg 1998/1999, Monte Carlo generators for HERA physics* 270-279
+  [hep-ph/9907280].
+  %%CITATION = HEP-PH/9907280;%%
+  %297 citations counted in INSPIRE as of 17 Jun 2015
+  
+  
+%\cite{Butterworth:2008iy}
+\bibitem{Butterworth:2008iy}
+  J.~M.~Butterworth, A.~R.~Davison, M.~Rubin and G.~P.~Salam,
+  %``Jet substructure as a new Higgs search channel at the LHC,''
+  Phys.\ Rev.\ Lett.\  {\bf 100} (2008) 242001
+  [arXiv:0802.2470 [hep-ph]].
+  %%CITATION = ARXIV:0802.2470;%%
+  %516 citations counted in INSPIRE as of 17 Jun 2015  
+        
+        
+%\cite{Plehn:2009rk}
+\bibitem{Plehn:2009rk} 
+  T.~Plehn, G.~P.~Salam and M.~Spannowsky,
+  %``Fat Jets for a Light Higgs,''
+  Phys.\ Rev.\ Lett.\  {\bf 104}, 111801 (2010)
+  [arXiv:0910.5472 [hep-ph]].
+  %%CITATION = ARXIV:0910.5472;%%
+  %212 citations counted in INSPIRE as of 22 Jul 2015
+  
+
+%\cite{Aad:2013gja}
+\bibitem{Aad:2013gja}
+  G.~Aad {\it et al.}  [ATLAS Collaboration],
+  %``Performance of jet substructure techniques for large-$R$ jets in proton-proton collisions at $\sqrt{s}$ = 7 TeV using the ATLAS detector,''
+  JHEP {\bf 1309} (2013) 076
+  [arXiv:1306.4945 [hep-ex]].
+  %%CITATION = ARXIV:1306.4945;%%
+  %61 citations counted in INSPIRE as of 17 Jun 2015    
+              
+  
+%%%%%%%%%%%%%%%%%%%
+% Sect. 4
+ %%%%%%%%%%%%%%%%%%%  
+  
+%\cite{Khachatryan:2015ila}
+\bibitem{Khachatryan:2015ila}
+  V.~Khachatryan {\it et al.} [CMS Collaboration],
+  %``Search for a standard model Higgs boson produced in association with a top-quark pair and decaying to bottom quarks using a matrix element method,''
+  Eur.\ Phys.\ J.\ C {\bf 75} (2015) 6,  251
+  [arXiv:1502.02485 [hep-ex]].
+  %%CITATION = ARXIV:1502.02485;%%
+  %12 citations counted in INSPIRE as of 23 Jul 2015  
+  
+%\cite{Aad:2015kqa}
+\bibitem{Aad:2015kqa}
+  G.~Aad {\it et al.} [ATLAS Collaboration],
+  %``Search for production of vector-like quark pairs and of four top quarks in the lepton-plus-jets final state in $pp$ collisions at $\sqrt{s}=8$ TeV with the ATLAS detector,''
+  arXiv:1505.04306 [hep-ex].
+  %%CITATION = ARXIV:1505.04306;%%
+  %6 citations counted in INSPIRE as of 23 Jul 2015  
+  
+%\cite{Hoeche:2014qda}
+\bibitem{Hoeche:2014qda}
+  S.~Hoeche, F.~Krauss, P.~Maierhoefer, S.~Pozzorini, M.~Schonherr and F.~Siegert,
+  %``Next-to-leading order QCD predictions for top-quark pair production with up to two jets merged with a parton shower,''
+  arXiv:1402.6293 [hep-ph].
+  %%CITATION = ARXIV:1402.6293;%%
+  %19 citations counted in INSPIRE as of 18 Jun 2015  
+  
+%\cite{Cascioli:2013era}
+\bibitem{Cascioli:2013era}
+  F.~Cascioli, P.~Maierh�fer, N.~Moretti, S.~Pozzorini and F.~Siegert,
+  %``NLO matching for $t\bar t b \bar b$ production with massive $b$-quarks,''
+  Phys.\ Lett.\ B {\bf 734} (2014) 210
+  [arXiv:1309.5912 [hep-ph]].
+  %%CITATION = ARXIV:1309.5912;%%
+  %29 citations counted in INSPIRE as of 18 Jun 2015  
+ 
+%\cite{Junk:1999kv}
+\bibitem{Junk:1999kv}
+  T.~Junk,
+  %``Confidence level computation for combining searches with small statistics,''
+  Nucl.\ Instrum.\ Meth.\ A {\bf 434} (1999) 435
+  [hep-ex/9902006].
+  %%CITATION = HEP-EX/9902006;%%
+  %961 citations counted in INSPIRE as of 17 Jun 2015
+  
+%\cite{Read:2002hq}
+\bibitem{Read:2002hq}
+  A.~L.~Read,
+  %``Presentation of search results: The CL(s) technique,''
+  J.\ Phys.\ G {\bf 28} (2002) 2693.
+  %%CITATION = JPAGA,G28,2693;%%
+  %1105 citations counted in INSPIRE as of 17 Jun 2015
+
+
+%\cite{Verkerke:2003ir}
+\bibitem{Verkerke:2003ir}
+  W.~Verkerke and D.~P.~Kirkby,
+  %``The RooFit toolkit for data modeling,''
+  eConf C {\bf 0303241} (2003) MOLT007
+  [physics/0306116].
+  %%CITATION = PHYSICS/0306116;%%
+  %218 citations counted in INSPIRE as of 17 Jun 2015
+  
+\bibitem{RooFitManual}
+  W.~Verkerke and D.~P.~Kirkby,
+% ``RooFit Users Manual," 
+\url{http://roofit.sourceforge.net/}.
+  
+%\cite{Cowan:2010js}
+\bibitem{Cowan:2010js}
+  G.~Cowan, K.~Cranmer, E.~Gross and O.~Vitells,
+  %``Asymptotic formulae for likelihood-based tests of new physics,''
+  Eur.\ Phys.\ J.\ C {\bf 71} (2011) 1554
+   [Eur.\ Phys.\ J.\ C {\bf 73} (2013) 2501]
+  [arXiv:1007.1727 [physics.data-an]].
+  %%CITATION = ARXIV:1007.1727;%%
+  %683 citations counted in INSPIRE as of 17 Jun 2015
+
+%\cite{Bernon:2014nxa}
+\bibitem{Bernon:2014nxa} 
+  J.~Bernon, J.~F.~Gunion, Y.~Jiang and S.~Kraml,
+  %``Light Higgs bosons in Two-Higgs-Doublet Models,''
+  Phys.\ Rev.\ D {\bf 91}, no. 7, 075019 (2015)
+  [arXiv:1412.3385 [hep-ph]].
+  %%CITATION = ARXIV:1412.3385;%%
+  %6 citations counted in INSPIRE as of 24 juil. 2015
+ 
+%\cite{Draper:2010ew}
+\bibitem{Draper:2010ew} 
+  P.~Draper, T.~Liu, C.~E.~M.~Wagner, L.~T.~Wang and H.~Zhang,
+  %``Dark Light Higgs,''
+  Phys.\ Rev.\ Lett.\  {\bf 106}, 121805 (2011)
+  [arXiv:1009.3963 [hep-ph]].
+  %%CITATION = ARXIV:1009.3963;%%
+  %65 citations counted in INSPIRE as of 24 Jul 2015
+
+
+%\cite{Kozaczuk:2015bea}
+\bibitem{Kozaczuk:2015bea} 
+  J.~Kozaczuk and T.~A.~W.~Martin,
+  %``Extending LHC Coverage to Light Pseudoscalar Mediators and Coy Dark Sectors,''
+  JHEP {\bf 1504}, 046 (2015)
+  [arXiv:1501.07275 [hep-ph]].
+  %%CITATION = ARXIV:1501.07275;%%
+  %10 citations counted in INSPIRE as of 24 juil. 2015
+ 
+ %\cite{Vitale:2009hr}
+\bibitem{Vitale:2009hr} 
+  V.~Vitale {\it et al.} [Fermi-LAT Collaboration],
+  %``Indirect Search for Dark Matter from the center of the Milky Way with the Fermi-Large Area Telescope,''
+  arXiv:0912.3828 [astro-ph.HE].
+  %%CITATION = ARXIV:0912.3828;%%
+  %78 citations counted in INSPIRE as of 23 juil. 2015
+ %%%%%%%%%%%%%%%%%%%  
+ 
+ %\cite{Calore:2014nla}
+\bibitem{Calore:2014nla} 
+  F.~Calore, I.~Cholis, C.~McCabe and C.~Weniger,
+  %``A Tale of Tails: Dark Matter Interpretations of the Fermi GeV Excess in Light of Background Model Systematics,''
+  Phys.\ Rev.\ D {\bf 91}, no. 6, 063003 (2015)
+  [arXiv:1411.4647 [hep-ph]].
+  %%CITATION = ARXIV:1411.4647;%%
+  %50 citations counted in INSPIRE as of 23 juil. 2015
+ 
+%\cite{NMSSMTools}
+\bibitem{NMSSMTools}
+%\cite{Ellwanger:2004xm}
+%\bibitem{Ellwanger:2004xm} 
+  U.~Ellwanger, J.~F.~Gunion and C.~Hugonie,
+  %``NMHDECAY: A Fortran code for the Higgs masses, couplings and decay widths in the NMSSM,''
+  JHEP {\bf 0502}, 066 (2005)
+  [hep-ph/0406215].
+  %%CITATION = HEP-PH/0406215;%%
+%\cite{Ellwanger:2005dv}
+%\bibitem{Ellwanger:2005dv} 
+  U.~Ellwanger and C.~Hugonie,
+  %``NMHDECAY 2.0: An Updated program for sparticle masses, Higgs masses, couplings and decay widths in the NMSSM,''
+  Comput.\ Phys.\ Commun.\  {\bf 175}, 290 (2006)
+  [hep-ph/0508022].
+  %%CITATION = HEP-PH/0508022;%%
+%\cite{Belanger:2005kh}
+%\bibitem{Belanger:2005kh} 
+  G.~Belanger, F.~Boudjema, C.~Hugonie, A.~Pukhov and A.~Semenov,
+  %``Relic density of dark matter in the NMSSM,''
+  JCAP {\bf 0509}, 001 (2005)
+  [hep-ph/0505142].
+  %%CITATION = HEP-PH/0505142;%%
+%\cite{Ellwanger:2006rn}
+%\bibitem{Ellwanger:2006rn} 
+  U.~Ellwanger and C.~Hugonie,
+  %``NMSPEC: A Fortran code for the sparticle and Higgs masses in the NMSSM with GUT scale boundary conditions,''
+  Comput.\ Phys.\ Commun.\  {\bf 177}, 399 (2007)
+  [hep-ph/0612134].
+  %%CITATION = HEP-PH/0612134;%%
+%\cite{Muhlleitner:2003vg}
+%\bibitem{Muhlleitner:2003vg} 
+  M.~Muhlleitner, A.~Djouadi and Y.~Mambrini,
+  %``SDECAY: A Fortran code for the decays of the supersymmetric particles in the MSSM,''
+  Comput.\ Phys.\ Commun.\  {\bf 168}, 46 (2005)
+  [hep-ph/0311167].
+  %%CITATION = HEP-PH/0311167;%%
+%\cite{Das:2011dg}
+%\bibitem{Das:2011dg} 
+  D.~Das, U.~Ellwanger and A.~M.~Teixeira,
+  %``NMSDECAY: A Fortran Code for Supersymmetric Particle Decays in the Next-to-Minimal Supersymmetric Standard Model,''
+  Comput.\ Phys.\ Commun.\  {\bf 183}, 774 (2012)
+  [arXiv:1106.5633 [hep-ph]].
+  %%CITATION = ARXIV:1106.5633;%%
+
+%\cite{Huang:2013ima}
+\bibitem{Huang:2013ima} 
+  J.~Huang, T.~Liu, L.~T.~Wang and F.~Yu,
+  %``Supersymmetric Exotic Decays of the 125 GeV Higgs Boson,''
+  Phys.\ Rev.\ Lett.\  {\bf 112}, no. 22, 221803 (2014)
+  [arXiv:1309.6633 [hep-ph]].
+  %%CITATION = ARXIV:1309.6633;%%
+  %12 citations counted in INSPIRE as of 24 juil. 2015
+
+%\cite{Butter:2015fqa}
+\bibitem{Butter:2015fqa} 
+  A.~Butter, T.~Plehn, M.~Rauch, D.~Zerwas, S.~Henrot-Versillé and R.~Lafaye,
+  %``Invisible Higgs Decays to Hooperons in the NMSSM,''
+  arXiv:1507.02288 [hep-ph].
+  %%CITATION = ARXIV:1507.02288;%%
+   
+\end{thebibliography}
+
+\end{document}

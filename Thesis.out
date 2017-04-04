@@ -1,0 +1,109 @@
+\BOOKMARK [0][]{chapter*.3}{Introduction}{}% 1
+\BOOKMARK [0][]{chapter.1}{Theoretical framework}{}% 2
+\BOOKMARK [1][]{section.1.1}{The Standard Model}{chapter.1}% 3
+\BOOKMARK [2][]{subsection.1.1.1}{Quantum Chromodynamics}{section.1.1}% 4
+\BOOKMARK [2][]{subsection.1.1.2}{Electroweak theory}{section.1.1}% 5
+\BOOKMARK [2][]{subsection.1.1.3}{The Brout-Higgs-Englert mechanism}{section.1.1}% 6
+\BOOKMARK [2][]{subsection.1.1.4}{Higgs boson production and decay in the Standard Model}{section.1.1}% 7
+\BOOKMARK [2][]{subsection.1.1.5}{Experimental tests and limitations of the Standard Model}{section.1.1}% 8
+\BOOKMARK [1][]{section.1.2}{Beyond the Standard Model}{chapter.1}% 9
+\BOOKMARK [2][]{subsection.1.2.1}{Supersymmetry}{section.1.2}% 10
+\BOOKMARK [2][]{subsection.1.2.2}{Extra dimensions}{section.1.2}% 11
+\BOOKMARK [2][]{subsection.1.2.3}{Compositeness}{section.1.2}% 12
+\BOOKMARK [2][]{subsection.1.2.4}{Vector-like quarks}{section.1.2}% 13
+\BOOKMARK [2][]{subsection.1.2.5}{Anomalous four-top-quark production}{section.1.2}% 14
+\BOOKMARK [0][]{chapter.2}{The ATLAS experiment at the Large Hadron Collider}{}% 15
+\BOOKMARK [1][]{section.2.1}{The Large Hadron Collider}{chapter.2}% 16
+\BOOKMARK [2][]{subsection.2.1.1}{CERN accelerator complex}{section.2.1}% 17
+\BOOKMARK [2][]{subsection.2.1.2}{LHC design and machine parameters}{section.2.1}% 18
+\BOOKMARK [2][]{subsection.2.1.3}{LHC experiments}{section.2.1}% 19
+\BOOKMARK [2][]{subsection.2.1.4}{From first beam to world's record energy and luminosity}{section.2.1}% 20
+\BOOKMARK [1][]{section.2.2}{The ATLAS experiment}{chapter.2}% 21
+\BOOKMARK [2][]{subsection.2.2.1}{Coordinate system}{section.2.2}% 22
+\BOOKMARK [2][]{subsection.2.2.2}{Magnet system}{section.2.2}% 23
+\BOOKMARK [2][]{subsection.2.2.3}{Inner detector}{section.2.2}% 24
+\BOOKMARK [2][]{subsection.2.2.4}{Calorimeters}{section.2.2}% 25
+\BOOKMARK [2][]{subsection.2.2.5}{Muon spectrometer}{section.2.2}% 26
+\BOOKMARK [2][]{subsection.2.2.6}{Luminosity detectors}{section.2.2}% 27
+\BOOKMARK [2][]{subsection.2.2.7}{Trigger and data acquisition system}{section.2.2}% 28
+\BOOKMARK [2][]{subsection.2.2.8}{ATLAS operation}{section.2.2}% 29
+\BOOKMARK [2][]{subsection.2.2.9}{Future ATLAS upgrades}{section.2.2}% 30
+\BOOKMARK [0][]{chapter.3}{Event simulation}{}% 31
+\BOOKMARK [1][]{section.3.1}{Event generation}{chapter.3}% 32
+\BOOKMARK [2][]{subsection.3.1.1}{Factorisation theorem}{section.3.1}% 33
+\BOOKMARK [2][]{subsection.3.1.2}{Parton density functions}{section.3.1}% 34
+\BOOKMARK [2][]{subsection.3.1.3}{Matrix element}{section.3.1}% 35
+\BOOKMARK [2][]{subsection.3.1.4}{Parton shower}{section.3.1}% 36
+\BOOKMARK [2][]{subsection.3.1.5}{Matrix element and parton shower matching}{section.3.1}% 37
+\BOOKMARK [2][]{subsection.3.1.6}{Hadronisation}{section.3.1}% 38
+\BOOKMARK [2][]{subsection.3.1.7}{Underlying event}{section.3.1}% 39
+\BOOKMARK [2][]{subsection.3.1.8}{Event generators}{section.3.1}% 40
+\BOOKMARK [1][]{section.3.2}{Detector simulation}{chapter.3}% 41
+\BOOKMARK [1][]{section.3.3}{Monte Carlo corrections}{chapter.3}% 42
+\BOOKMARK [1][]{section.3.4}{Monte Carlo validation procedure}{chapter.3}% 43
+\BOOKMARK [0][]{chapter.4}{Event reconstruction}{}% 44
+\BOOKMARK [1][]{section.4.1}{Tracks}{chapter.4}% 45
+\BOOKMARK [1][]{section.4.2}{Primary vertices}{chapter.4}% 46
+\BOOKMARK [1][]{section.4.3}{Leptons}{chapter.4}% 47
+\BOOKMARK [2][]{subsection.4.3.1}{Electrons}{section.4.3}% 48
+\BOOKMARK [2][]{subsection.4.3.2}{Muons}{section.4.3}% 49
+\BOOKMARK [1][]{section.4.4}{Jets}{chapter.4}% 50
+\BOOKMARK [2][]{subsection.4.4.1}{Topoclusters}{section.4.4}% 51
+\BOOKMARK [2][]{subsection.4.4.2}{Jet finding}{section.4.4}% 52
+\BOOKMARK [2][]{subsection.4.4.3}{Jet calibration}{section.4.4}% 53
+\BOOKMARK [2][]{subsection.4.4.4}{Jet re-clustering}{section.4.4}% 54
+\BOOKMARK [2][]{subsection.4.4.5}{b-tagging}{section.4.4}% 55
+\BOOKMARK [1][]{section.4.5}{Missing transverse energy}{chapter.4}% 56
+\BOOKMARK [0][]{chapter.5}{Samples and tools}{}% 57
+\BOOKMARK [1][]{section.5.1}{Data sample}{chapter.5}% 58
+\BOOKMARK [1][]{section.5.2}{Signal and background modelling}{chapter.5}% 59
+\BOOKMARK [2][]{subsection.5.2.1}{t+jets production}{section.5.2}% 60
+\BOOKMARK [2][]{subsection.5.2.2}{W/Z+jets production}{section.5.2}% 61
+\BOOKMARK [2][]{subsection.5.2.3}{Single top-quark production}{section.5.2}% 62
+\BOOKMARK [2][]{subsection.5.2.4}{Diboson production}{section.5.2}% 63
+\BOOKMARK [2][]{subsection.5.2.5}{tV production}{section.5.2}% 64
+\BOOKMARK [2][]{subsection.5.2.6}{Multijet production}{section.5.2}% 65
+\BOOKMARK [2][]{subsection.5.2.7}{Signal modelling}{section.5.2}% 66
+\BOOKMARK [1][]{section.5.3}{Tag rate function method}{chapter.5}% 67
+\BOOKMARK [1][]{section.5.4}{Statistical tools}{chapter.5}% 68
+\BOOKMARK [2][]{subsection.5.4.1}{CLs procedure}{section.5.4}% 69
+\BOOKMARK [2][]{subsection.5.4.2}{Profile likelihood ratio}{section.5.4}% 70
+\BOOKMARK [0][]{chapter.6}{Search for new phenomena in t final states with additional heavy-flavour jets}{}% 71
+\BOOKMARK [1][]{section.6.1}{Event preselection}{chapter.6}% 72
+\BOOKMARK [1][]{section.6.2}{Comparison between data and prediction}{chapter.6}% 73
+\BOOKMARK [1][]{section.6.3}{Analysis strategy and event categorisation}{chapter.6}% 74
+\BOOKMARK [1][]{section.6.4}{Discriminating variable: meff}{chapter.6}% 75
+\BOOKMARK [1][]{section.6.5}{The fit model}{chapter.6}% 76
+\BOOKMARK [2][]{subsection.6.5.1}{Systematic uncertainties}{section.6.5}% 77
+\BOOKMARK [2][]{subsection.6.5.2}{Expected fit performance}{section.6.5}% 78
+\BOOKMARK [2][]{subsection.6.5.3}{Fit results}{section.6.5}% 79
+\BOOKMARK [1][]{section.6.6}{Limits on T production}{chapter.6}% 80
+\BOOKMARK [2][]{subsection.6.6.1}{Comparison with other Run 2 searches}{section.6.6}% 81
+\BOOKMARK [1][]{section.6.7}{Limits on tt production}{chapter.6}% 82
+\BOOKMARK [1][]{section.6.8}{Limits on associated heavy Higgs-boson production}{chapter.6}% 83
+\BOOKMARK [1][]{section.6.9}{Future improvements}{chapter.6}% 84
+\BOOKMARK [0][]{chapter.7}{Search for tH production}{}% 85
+\BOOKMARK [1][]{section.7.1}{Event preselection}{chapter.7}% 86
+\BOOKMARK [2][]{subsection.7.1.1}{Comparison between data and prediction}{section.7.1}% 87
+\BOOKMARK [1][]{section.7.2}{Analysis strategy and event categorisation}{chapter.7}% 88
+\BOOKMARK [1][]{section.7.3}{Reconstruction and discriminating variable}{chapter.7}% 89
+\BOOKMARK [1][]{section.7.4}{The fit model}{chapter.7}% 90
+\BOOKMARK [2][]{subsection.7.4.1}{Systematic uncertainties}{section.7.4}% 91
+\BOOKMARK [2][]{subsection.7.4.2}{Fit results}{section.7.4}% 92
+\BOOKMARK [1][]{section.7.5}{Limits on tH production}{chapter.7}% 93
+\BOOKMARK [2][]{subsection.7.5.1}{Comparison with other analyses}{section.7.5}% 94
+\BOOKMARK [1][]{section.7.6}{Future improvements}{chapter.7}% 95
+\BOOKMARK [0][]{chapter*.144}{Conclusions}{}% 96
+\BOOKMARK [0][]{appendix.A}{Light CP-odd scalar search in top-quark pair associated production at the LHC}{}% 97
+\BOOKMARK [1][]{section.A.1}{Signal and background modelling}{appendix.A}% 98
+\BOOKMARK [2][]{subsection.A.1.1}{Signal modelling}{section.A.1}% 99
+\BOOKMARK [2][]{subsection.A.1.2}{Background modelling}{section.A.1}% 100
+\BOOKMARK [1][]{section.A.2}{Experimental analysis}{appendix.A}% 101
+\BOOKMARK [2][]{subsection.A.2.1}{Event reconstruction}{section.A.2}% 102
+\BOOKMARK [2][]{subsection.A.2.2}{Analysis strategy}{section.A.2}% 103
+\BOOKMARK [2][]{subsection.A.2.3}{Systematic uncertainties}{section.A.2}% 104
+\BOOKMARK [1][]{section.A.3}{Limits on a light CP-odd scalar}{appendix.A}% 105
+\BOOKMARK [2][]{subsection.A.3.1}{Interpretation of the limits}{section.A.3}% 106
+\BOOKMARK [0][]{appendix.B}{Glossary}{}% 107
+\BOOKMARK [0][]{appendix*.154}{Bibliography}{}% 108
+\BOOKMARK [0][]{appendix*.155}{Acknowledgements}{}% 109

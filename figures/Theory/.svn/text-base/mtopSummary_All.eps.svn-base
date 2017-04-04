@@ -1,0 +1,279 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%BoundingBox:  0 0 567 390
+%%Title: ./TopMassSummary.eps: Summary of ATLAS Top Mass Measurements
+%%Creator: ROOT Version 5.34/02
+%%CreationDate: Mon Mar 17 15:28:04 2014
+%%EndComments
+%%BeginProlog
+80 dict begin
+/s {stroke} def /l {lineto} def /m {moveto} def /t {translate} def
+/r {rotate} def /rl {roll}  def /R {repeat} def
+/d {rlineto} def /rm {rmoveto} def /gr {grestore} def /f {eofill} def
+/c {setrgbcolor} def /black {0 setgray} def /sd {setdash} def
+/cl {closepath} def /sf {scalefont setfont} def /lw {setlinewidth} def
+/box {m dup 0 exch d exch 0 d 0 exch neg d cl} def
+/NC{systemdict begin initclip end}def/C{NC box clip newpath}def
+/bl {box s} def /bf {box f} def /Y { 0 exch d} def /X { 0 d} def 
+/K {{pop pop 0 moveto} exch kshow} bind def
+/ita {/ang 15 def gsave [1 0 ang dup sin exch cos div 1 0 0] concat} def 
+/mp {newpath /y exch def /x exch def} def
+/side {[w .77 mul w .23 mul] .385 w mul sd w 0 l currentpoint t -144 r} def
+/mr {mp x y w2 0 360 arc} def /m24 {mr s} def /m20 {mr f} def
+/mb {mp x y w2 add m w2 neg 0 d 0 w neg d w 0 d 0 w d cl} def
+/mt {mp x y w2 add m w2 neg w neg d w 0 d cl} def
+/m21 {mb f} def /m25 {mb s} def /m22 {mt f} def /m26{mt s} def
+/m23 {mp x y w2 sub m w2 w d w neg 0 d cl f} def
+/m27 {mp x y w2 add m w3 neg w2 neg d w3 w2 neg d w3 w2 d cl s} def
+/m28 {mp x w2 sub y w2 sub w3 add m w3 0 d  0 w3 neg d w3 0 d 0 w3 d w3 0 d  0 w3 d w3 neg 0 d 0 w3 d w3 neg 0 d 0 w3 neg d w3 neg 0 d cl s } def
+/m29 {mp gsave x w2 sub y w2 add w3 sub m currentpoint t 4 {side} repeat cl fill gr} def
+/m30 {mp gsave x w2 sub y w2 add w3 sub m currentpoint t 4 {side} repeat cl s gr} def
+/m31 {mp x y w2 sub m 0 w d x w2 sub y m w 0 d x w2 sub y w2 add m w w neg d x w2 sub y w2 sub m w w d s} def
+/m32 {mp x y w2 sub m w2 w d w neg 0 d cl s} def
+/m33 {mp x y w2 add m w3 neg w2 neg d w3 w2 neg d w3 w2 d cl f} def
+/m34 {mp x w2 sub y w2 sub w3 add m w3 0 d  0 w3 neg d w3 0 d 0 w3 d w3 0 d  0 w3 d w3 neg 0 d 0 w3 d w3 neg 0 d 0 w3 neg d w3 neg 0 d cl f } def
+/m2 {mp x y w2 sub m 0 w d x w2 sub y m w 0 d s} def
+/m5 {mp x w2 sub y w2 sub m w w d x w2 sub y w2 add m w w neg d s} def
+/reEncode {exch findfont dup length dict begin {1 index /FID eq  {pop pop} {def} ifelse } forall /Encoding exch def currentdict end dup /FontName get exch definefont pop } def [/Times-Bold /Times-Italic /Times-BoldItalic /Helvetica /Helvetica-Oblique
+ /Helvetica-Bold /Helvetica-BoldOblique /Courier /Courier-Oblique /Courier-Bold /Courier-BoldOblique /Times-Roman /AvantGarde-Book /AvantGarde-BookOblique /AvantGarde-Demi /AvantGarde-DemiOblique /Bookman-Demi /Bookman-DemiItalic /Bookman-Light
+ /Bookman-LightItalic /Helvetica-Narrow /Helvetica-Narrow-Bold /Helvetica-Narrow-BoldOblique /Helvetica-Narrow-Oblique /NewCenturySchlbk-Roman /NewCenturySchlbk-Bold /NewCenturySchlbk-BoldItalic /NewCenturySchlbk-Italic /Palatino-Bold
+ /Palatino-BoldItalic /Palatino-Italic /Palatino-Roman ] {ISOLatin1Encoding reEncode } forall
+%%EndProlog
+%%BeginSetup
+%%EndSetup
+newpath  gsave  .25 .25 scale  gsave  0 0 t black[  ] 0 sd 3 lw 1 1 1 c 2268 1559 0 0 bf black 1 1 1 c 2041 1286 113 234 bf black 2041 1286 113 234 bl 1 1 1 c 2041 1286 113 234 bf black 2041 1286 113 234 bl 113 234 m 2041 X s
+ gsave  2268 1559 0 0 C 1990.89 123.245 t 0 r /Helvetica findfont 58.7786 sf 0 0 m ( [GeV]) show NC gr 
+ gsave  2268 1559 0 0 C 1937.8 108.077 t 0 r /Helvetica findfont 37.9217 sf 0 0 m (top) show NC gr 
+ gsave  2268 1559 0 0 C 1892.29 123.245 t 0 r /Helvetica findfont 58.7786 sf 0 0 m (m) show NC gr  380 255 m -21 Y s 823 255 m -21 Y s 1267 255 m -21 Y s 1711 255 m -21 Y s 2154 255 m -21 Y s 380 255 m -21 Y s
+ gsave  2268 1559 0 0 C 329.919 176.336 t 0 r /Helvetica findfont 58.7786 sf 0 0 m (165) show NC gr 
+ gsave  2268 1559 0 0 C 773.602 176.336 t 0 r /Helvetica findfont 58.7786 sf 0 0 m (170) show NC gr 
+ gsave  2268 1559 0 0 C 1217.29 176.336 t 0 r /Helvetica findfont 58.7786 sf 0 0 m (175) show NC gr 
+ gsave  2268 1559 0 0 C 1660.97 176.336 t 0 r /Helvetica findfont 58.7786 sf 0 0 m (180) show NC gr 
+ gsave  2268 1559 0 0 C 2104.65 176.336 t 0 r /Helvetica findfont 58.7786 sf 0 0 m (185) show NC gr  113 234 m 1286 Y s 170 234 m -57 X s 170 1520 m -57 X s 1 1 1 c black 1 1 1 c
+ gsave  2268 1559 0 0 C 77.7394 212.361 t 0 r /Helvetica findfont 58.7786 sf 0 0 m (1) show NC gr  black 1 1 1 c
+ gsave  2268 1559 0 0 C 36.0256 1497.91 t 0 r /Helvetica findfont 58.7786 sf 0 0 m (17) show NC gr  black 0.9 0.9 0.9 c 135 1133 1052 242 bf 0 0 1 c 9 lw 1104 314 m -73 X s 1031 305 m 19 Y s 1127 314 m 72 X s 1199 305 m 19 Y s 1096 395 m -66 X s 1030
+ 385 m 19 Y s 1119 395 m 66 X s 1185 385 m 19 Y s 1108 475 m -56 X s 1052 465 m 19 Y s 1131 475 m 56 X s 1187 465 m 19 Y s 1122 555 m -114 X s 1008 546 m 19 Y s 1144 555 m 114 X s 1258 546 m 19 Y s 1034 636 m -124 X s 910 626 m 19 Y s 1056 636 m 124
+ X s 1180 626 m 19 Y s 1122 716 m -83 X s 1039 706 m 19 Y s 1144 716 m 83 X s 1227 706 m 19 Y s 1086 796 m -133 X s 953 787 m 19 Y s 1109 796 m 133 X s 1242 787 m 19 Y s 1017 877 m -126 X s 891 867 m 19 Y s 1040 877 m 126 X s 1166 867 m 19 Y s 1167
+ 957 m -236 X s 931 948 m 19 Y s 1190 957 m 236 X s 1426 948 m 19 Y s 1250 1037 m -122 X s 1128 1028 m 19 Y s 1273 1037 m 122 X s 1395 1028 m 19 Y s 1161 1118 m -153 X s 1008 1108 m 19 Y s 1183 1118 m 153 X s 1336 1108 m 19 Y s 1031 1198 m -167 X s
+ 864 1189 m 19 Y s 1054 1198 m 167 X s 1221 1189 m 19 Y s 837 1279 m -316 X s 521 1269 m 19 Y s 860 1279 m 315 X s 1175 1269 m 19 Y s 1065 1359 m -88 X s 977 1349 m 19 Y s 1088 1359 m 87 X s 1175 1349 m 19 Y s black 1 0 0 c 3 lw /w 26 def /w2 {w 2
+ div} def /w3 {w 3 div} def 1115 314 1107 395 1120 475 1133 555 1045 636 1133 716 1097 796 1028 877 1178 957 1262 1037 1172 1118 1042 1198 848 1279 1076 1359 14 { m20} R 9 lw 1 0.6 0.2 c 1106 314 m -21 X s 1085 305 m 19 Y s 1125 314 m 21 X s 1146 305
+ m 19 Y s 1098 395 m -46 X s 1052 385 m 19 Y s 1117 395 m 46 X s 1163 385 m 19 Y s 1110 475 m -22 X s 1088 465 m 19 Y s 1129 475 m 23 X s 1152 465 m 19 Y s 1123 555 m -51 X s 1072 546 m 19 Y s 1142 555 m 52 X s 1194 546 m 19 Y s 1036 636 m -29 X s
+ 1007 626 m 19 Y s 1055 636 m 28 X s 1083 626 m 19 Y s 1123 716 m -28 X s 1095 706 m 19 Y s 1142 716 m 29 X s 1171 706 m 19 Y s 1088 796 m -47 X s 1041 787 m 19 Y s 1107 796 m 47 X s 1154 787 m 19 Y s 1019 877 m -58 X s 961 867 m 19 Y s 1038 877 m 57
+ X s 1095 867 m 19 Y s 1169 957 m -206 X s 963 948 m 19 Y s 1188 957 m 205 X s 1393 948 m 19 Y s 1252 1037 m -75 X s 1177 1028 m 19 Y s 1271 1037 m 75 X s 1346 1028 m 19 Y s 1163 1118 m -137 X s 1026 1108 m 19 Y s 1181 1118 m 137 X s 1318 1108 m 19 Y
+ s 1033 1198 m -143 X s 890 1189 m 19 Y s 1052 1198 m 143 X s 1195 1189 m 19 Y s 839 1279 m -164 X s 675 1269 m 19 Y s 858 1279 m 163 X s 1021 1269 m 19 Y s 1067 1359 m -54 X s 1013 1349 m 19 Y s 1086 1359 m 54 X s 1140 1349 m 19 Y s black 1 0.6 0.2
+ c 3 lw /w 20 def /w2 {w 2 div} def /w3 {w 3 div} def 1115 314 1107 395 1120 475 1133 555 1045 636 1133 716 1097 796 1028 877 1178 957 1262 1037 1172 1118 1042 1198 848 1279 1076 1359 14 { m20} R 9 lw 1 0 0 c 1104 314 m -9 X s 1095 305 m 19 Y s 1127
+ 314 m 9 X s 1136 305 m 19 Y s 1096 395 m -34 X s 1062 385 m 19 Y s 1119 395 m 33 X s 1152 385 m 19 Y s 1108 475 m -12 X s 1096 465 m 19 Y s 1131 475 m 12 X s 1143 465 m 19 Y s 1122 555 m -50 X s 1072 546 m 19 Y s 1144 555 m 50 X s 1194 546 m 19 Y s
+ 1034 636 m -27 X s 1007 626 m 19 Y s 1056 636 m 27 X s 1083 626 m 19 Y s 1122 716 m -13 X s 1109 706 m 19 Y s 1144 716 m 13 X s 1157 706 m 19 Y s 1086 796 m -45 X s 1041 787 m 19 Y s 1109 796 m 45 X s 1154 787 m 19 Y s 1017 877 m -9 X s 1008 867 m
+ 19 Y s 1040 877 m 9 X s 1049 867 m 19 Y s 1167 957 m -198 X s 969 948 m 19 Y s 1190 957 m 198 X s 1388 948 m 19 Y s 1250 1037 m -62 X s 1188 1028 m 19 Y s 1273 1037 m 62 X s 1335 1028 m 19 Y s 1161 1118 m -101 X s 1060 1108 m 19 Y s 1183 1118 m 101
+ X s 1284 1108 m 19 Y s 1031 1198 m -115 X s 916 1189 m 19 Y s 1054 1198 m 115 X s 1169 1189 m 19 Y s 837 1279 m -162 X s 675 1269 m 19 Y s 860 1279 m 161 X s 1021 1269 m 19 Y s 1065 1359 m -35 X s 1030 1349 m 19 Y s 1088 1359 m 34 X s 1122 1349 m 19
+ Y s black 1 0 0 c 3 lw /w 26 def /w2 {w 2 div} def /w3 {w 3 div} def 1115 314 1107 395 1120 475 1133 555 1045 636 1133 716 1097 796 1028 877 1178 957 1262 1037 1172 1118 1042 1198 848 1279 1076 1359 14 { m20} R 9 lw 0 0 1 c black 0 0 1 c
+ gsave  2268 1559 0 0 C 157.375 303.373 t 0 r /Helvetica findfont 36.0256 sf 0 0 m (       LHC September 2013) show NC gr  black 0 0 1 c
+ gsave  2268 1559 0 0 C 1992.78 303.373 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 0.88\)) show NC gr  black 0 0 1 c
+ gsave  2268 1559 0 0 C 1971.93 303.373 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0 0 1 c
+ gsave  2268 1559 0 0 C 1879.02 303.373 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 0.26 ) show NC gr  black 0 0 1 c
+ gsave  2268 1559 0 0 C 1858.16 303.373 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0 0 1 c
+ gsave  2268 1559 0 0 C 1751.98 303.373 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( \(0.23 ) show NC gr  black 0 0 1 c
+ gsave  2268 1559 0 0 C 1640.11 303.373 t 0 r /Helvetica findfont 51.1943 sf 0 0 m ( 0.95) show NC gr  black 0 0 1 c
+ gsave  2268 1559 0 0 C 1611.67 303.373 t 0 r /Symbol findfont 51.1943 sf 0 0 m (±) show NC gr  black 0 0 1 c
+ gsave  2268 1559 0 0 C 1442.92 303.373 t 0 r /Helvetica findfont 51.1943 sf 0 0 m (173.29 ) show NC gr  black 0 0 1 c
+ gsave  2268 1559 0 0 C 157.375 383.009 t 0 r /Helvetica findfont 36.0256 sf 0 0 m 
+ 562 552 542 521 511 501 480 460 434 422 412 391 371 351 331 321 300 282 270 250 220 210 189 169 157 147 127 108 88 70 61 50 40 30 20 10
+(       Tevatron March 2013 \(Run I+II\)) K NC gr  black 0 0 1 c
+ gsave  2268 1559 0 0 C 1987.1 383.009 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 0.61\)) show NC gr  black 0 0 1 c
+ gsave  2268 1559 0 0 C 1966.24 383.009 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0 0 1 c
+ gsave  2268 1559 0 0 C 1873.33 383.009 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 0.36 ) show NC gr  black 0 0 1 c
+ gsave  2268 1559 0 0 C 1852.47 383.009 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0 0 1 c
+ gsave  2268 1559 0 0 C 1751.98 383.009 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( \(0.51 ) show NC gr  black 0 0 1 c
+ gsave  2268 1559 0 0 C 1640.11 383.009 t 0 r /Helvetica findfont 51.1943 sf 0 0 m ( 0.87) show NC gr  black 0 0 1 c
+ gsave  2268 1559 0 0 C 1611.67 383.009 t 0 r /Symbol findfont 51.1943 sf 0 0 m (±) show NC gr  black 0 0 1 c
+ gsave  2268 1559 0 0 C 1442.92 383.009 t 0 r /Helvetica findfont 51.1943 sf 0 0 m (173.20 ) show NC gr  1 0 0 c black 1 0 0 c
+ gsave  2268 1559 0 0 C 485.398 449.372 t 0 r /Helvetica findfont 22.753 sf 0 0 m ( prob.=93%) show NC gr  black 1 0 0 c
+ gsave  2268 1559 0 0 C 475.917 456.956 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (2) show NC gr  black 1 0 0 c
+ gsave  2268 1559 0 0 C 462.645 449.372 t 0 r /Symbol findfont 22.753 sf 0 0 m (c) show NC gr  black 1 0 0 c
+ gsave  2268 1559 0 0 C 456.956 449.372 t 0 r /Helvetica findfont 22.753 sf 0 0 m ( ) show NC gr  black 1 0 0 c
+ gsave  2268 1559 0 0 C 485.398 481.605 t 0 r /Helvetica findfont 22.753 sf 0 0 m ( / ndf =4.3/10) show NC gr  black 1 0 0 c
+ gsave  2268 1559 0 0 C 475.917 489.19 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (2) show NC gr  black 1 0 0 c
+ gsave  2268 1559 0 0 C 462.645 481.605 t 0 r /Symbol findfont 22.753 sf 0 0 m (c) show NC gr  black 1 0 0 c
+ gsave  2268 1559 0 0 C 456.956 481.605 t 0 r /Helvetica findfont 22.753 sf 0 0 m ( ) show NC gr  black 1 0 0 c
+ gsave  2268 1559 0 0 C 157.375 464.541 t 0 r /Helvetica findfont 36.0256 sf 0 0 m 
+ 294 274 254 234 213 203 193 173 143 122 104 94 74 66 54 34
+(World comb. 2014 ) K NC gr  black 1 0 0 c
+ gsave  2268 1559 0 0 C 1992.78 464.541 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 0.67\)) show NC gr  black 1 0 0 c
+ gsave  2268 1559 0 0 C 1971.93 464.541 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 1 0 0 c
+ gsave  2268 1559 0 0 C 1879.02 464.541 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 0.24 ) show NC gr  black 1 0 0 c
+ gsave  2268 1559 0 0 C 1858.16 464.541 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 1 0 0 c
+ gsave  2268 1559 0 0 C 1751.98 464.541 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( \(0.27 ) show NC gr  black 1 0 0 c
+ gsave  2268 1559 0 0 C 1640.11 464.541 t 0 r /Helvetica findfont 51.1943 sf 0 0 m ( 0.76) show NC gr  black 1 0 0 c
+ gsave  2268 1559 0 0 C 1611.67 464.541 t 0 r /Symbol findfont 51.1943 sf 0 0 m (±) show NC gr  black 1 0 0 c
+ gsave  2268 1559 0 0 C 1442.92 464.541 t 0 r /Helvetica findfont 51.1943 sf 0 0 m (173.34 ) show NC gr  0.5 0.5 0.5 c black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 290.101 538.488 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (\2551) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 206.673 529.007 t 0 r /Helvetica findfont 22.753 sf 0 0 m ( = 3.5 fb) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 189.608 521.423 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (int) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 529.007 t 0 r /Helvetica findfont 22.753 sf 0 0 m (   L) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 566.929 t 0 r /Helvetica findfont 36.0256 sf 0 0 m 
+ 274 264 244 236 226 218 210 189 179 169 149 131 111 91 81 57 26
+(CMS 2011, all jets) K NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1977.62 544.176 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 1.23\)) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1956.76 544.176 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1746.29 544.176 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( \(0.69            ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1640.11 544.176 t 0 r /Helvetica findfont 51.1943 sf 0 0 m ( 1.41) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1611.67 544.176 t 0 r /Symbol findfont 51.1943 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1442.92 544.176 t 0 r /Helvetica findfont 51.1943 sf 0 0 m (173.49 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 290.101 618.123 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (\2551) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 206.673 608.643 t 0 r /Helvetica findfont 22.753 sf 0 0 m ( = 4.9 fb) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 189.608 601.059 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (int) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 608.643 t 0 r /Helvetica findfont 22.753 sf 0 0 m (   L) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 646.565 t 0 r /Helvetica findfont 36.0256 sf 0 0 m 
+ 308 288 278 258 237 229 217 209 189 179 169 149 131 111 91 80 56 26
+(CMS 2011, di\255lepton) K NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1983.3 623.812 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 1.46\)) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1962.45 623.812 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1751.98 623.812 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( \(0.43            ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1640.11 623.812 t 0 r /Helvetica findfont 51.1943 sf 0 0 m ( 1.52) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1611.67 623.812 t 0 r /Symbol findfont 51.1943 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1442.92 623.812 t 0 r /Helvetica findfont 51.1943 sf 0 0 m (172.50 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 290.101 699.655 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (\2551) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 206.673 690.175 t 0 r /Helvetica findfont 22.753 sf 0 0 m ( = 4.9 fb) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 189.608 682.59 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (int) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 690.175 t 0 r /Helvetica findfont 22.753 sf 0 0 m (   L) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 728.096 t 0 r /Helvetica findfont 36.0256 sf 0 0 m 
+ 257 247 227 219 198 190 179 169 149 132 111 91 81 57 26
+(CMS 2011, l+jets) K NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1992.78 705.343 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 0.97\)) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1971.93 705.343 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1879.02 705.343 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 0.33 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1858.16 705.343 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1751.98 705.343 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( \(0.27 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1640.11 705.343 t 0 r /Helvetica findfont 51.1943 sf 0 0 m ( 1.06) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1611.67 705.343 t 0 r /Symbol findfont 51.1943 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1442.92 705.343 t 0 r /Helvetica findfont 51.1943 sf 0 0 m (173.49 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 290.101 779.291 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (\2551) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 206.673 769.81 t 0 r /Helvetica findfont 22.753 sf 0 0 m ( = 4.7 fb) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 189.608 762.226 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (int) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 769.81 t 0 r /Helvetica findfont 22.753 sf 0 0 m (   L) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 807.732 t 0 r /Helvetica findfont 36.0256 sf 0 0 m 
+ 340 320 310 290 269 261 249 241 221 211 201 181 163 143 123 112 88 64 44 21
+(ATLAS 2011, di\255lepton) K NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1983.3 784.979 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 1.50\)) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1962.45 784.979 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1751.98 784.979 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( \(0.64            ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1640.11 784.979 t 0 r /Helvetica findfont 51.1943 sf 0 0 m ( 1.63) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1611.67 784.979 t 0 r /Symbol findfont 51.1943 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1442.92 784.979 t 0 r /Helvetica findfont 51.1943 sf 0 0 m (173.09 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 290.101 860.822 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (\2551) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 206.673 851.342 t 0 r /Helvetica findfont 22.753 sf 0 0 m ( = 4.7 fb) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 189.608 843.757 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (int) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 851.342 t 0 r /Helvetica findfont 22.753 sf 0 0 m (   L) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 889.263 t 0 r /Helvetica findfont 36.0256 sf 0 0 m 
+ 289 279 259 251 230 222 211 201 181 164 143 123 113 89 65 44 22
+(ATLAS 2011, l+jets) K NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1985.2 866.51 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 1.35\)) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1964.34 866.51 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1871.43 866.51 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 0.72 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1850.58 866.51 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1744.4 866.51 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( \(0.23 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1632.53 866.51 t 0 r /Helvetica findfont 51.1943 sf 0 0 m ( 1.55) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1604.09 866.51 t 0 r /Symbol findfont 51.1943 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1442.92 866.51 t 0 r /Helvetica findfont 51.1943 sf 0 0 m (172.31 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 290.101 940.458 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (\2551) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 206.673 930.977 t 0 r /Helvetica findfont 22.753 sf 0 0 m ( = 5.3 fb) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 189.608 923.393 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (int) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 930.977 t 0 r /Helvetica findfont 22.753 sf 0 0 m (   L) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 968.899 t 0 r /Helvetica findfont 36.0256 sf 0 0 m (D0 RunII, di\255lepton) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1992.78 946.146 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 1.38\)) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1971.93 946.146 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1879.02 946.146 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 0.55 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1858.16 946.146 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1751.98 946.146 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( \(2.36 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1640.11 946.146 t 0 r /Helvetica findfont 51.1943 sf 0 0 m ( 2.79) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1611.67 946.146 t 0 r /Symbol findfont 51.1943 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1442.92 946.146 t 0 r /Helvetica findfont 51.1943 sf 0 0 m (174.00 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 290.101 1020.09 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (\2551) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 206.673 1010.61 t 0 r /Helvetica findfont 22.753 sf 0 0 m ( = 3.6 fb) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 189.608 1003.03 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (int) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 1010.61 t 0 r /Helvetica findfont 22.753 sf 0 0 m (   L) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 1048.53 t 0 r /Helvetica findfont 36.0256 sf 0 0 m (D0 RunII, l+jets) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1992.78 1025.78 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 1.16\)) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1971.93 1025.78 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1879.02 1025.78 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 0.47 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1858.16 1025.78 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1751.98 1025.78 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( \(0.83 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1640.11 1025.78 t 0 r /Helvetica findfont 51.1943 sf 0 0 m ( 1.50) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1611.67 1025.78 t 0 r /Symbol findfont 51.1943 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1442.92 1025.78 t 0 r /Helvetica findfont 51.1943 sf 0 0 m (174.94 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 290.101 1101.62 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (\2551) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 206.673 1092.14 t 0 r /Helvetica findfont 22.753 sf 0 0 m ( = 8.7 fb) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 189.608 1084.56 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (int) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 1092.14 t 0 r /Helvetica findfont 22.753 sf 0 0 m (   L) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 420.931 1139.55 t 0 r /Helvetica findfont 36.0256 sf 0 0 m (+jets) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 369.736 1158.51 t 0 r /Helvetica findfont 24.6491 sf 0 0 m (miss) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 369.736 1122.48 t 0 r /Helvetica findfont 24.6491 sf 0 0 m (T) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 1139.55 t 0 r /Helvetica findfont 36.0256 sf 0 0 m (CDF RunII, E) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1992.78 1107.31 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 0.86\)) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1971.93 1107.31 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1879.02 1107.31 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 1.05 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1858.16 1107.31 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1751.98 1107.31 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( \(1.26 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1640.11 1107.31 t 0 r /Helvetica findfont 51.1943 sf 0 0 m ( 1.85) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1611.67 1107.31 t 0 r /Symbol findfont 51.1943 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1442.92 1107.31 t 0 r /Helvetica findfont 51.1943 sf 0 0 m (173.93 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 290.101 1181.26 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (\2551) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 206.673 1171.78 t 0 r /Helvetica findfont 22.753 sf 0 0 m ( = 5.8 fb) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 189.608 1164.2 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (int) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 1171.78 t 0 r /Helvetica findfont 22.753 sf 0 0 m (   L) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 1209.7 t 0 r /Helvetica findfont 36.0256 sf 0 0 m (CDF RunII, all jets) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1987.1 1186.95 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 1.04\)) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1966.24 1186.95 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1873.33 1186.95 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 0.95 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1852.47 1186.95 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1746.29 1186.95 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( \(1.43 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1640.11 1186.95 t 0 r /Helvetica findfont 51.1943 sf 0 0 m ( 2.01) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1611.67 1186.95 t 0 r /Symbol findfont 51.1943 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1442.92 1186.95 t 0 r /Helvetica findfont 51.1943 sf 0 0 m (172.47 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 290.101 1260.9 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (\2551) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 206.673 1251.42 t 0 r /Helvetica findfont 22.753 sf 0 0 m ( = 5.6 fb) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 189.608 1243.83 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (int) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 1251.42 t 0 r /Helvetica findfont 22.753 sf 0 0 m (   L) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 1289.34 t 0 r /Helvetica findfont 36.0256 sf 0 0 m (CDF RunII, di\255lepton) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1983.3 1266.58 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 3.13\)) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1962.45 1266.58 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1751.98 1266.58 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( \(1.95            ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1640.11 1266.58 t 0 r /Helvetica findfont 51.1943 sf 0 0 m ( 3.69) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1611.67 1266.58 t 0 r /Symbol findfont 51.1943 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1442.92 1266.58 t 0 r /Helvetica findfont 51.1943 sf 0 0 m (170.28 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 290.101 1342.43 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (\2551) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 206.673 1332.95 t 0 r /Helvetica findfont 22.753 sf 0 0 m ( = 8.7 fb) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 189.608 1325.36 t 0 r /Helvetica findfont 15.1687 sf 0 0 m (int) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 1332.95 t 0 r /Helvetica findfont 22.753 sf 0 0 m (   L) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.375 1370.87 t 0 r /Helvetica findfont 36.0256 sf 0 0 m (CDF RunII, l+jets) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1992.78 1348.12 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 0.86\)) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1971.93 1348.12 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1879.02 1348.12 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( 0.49 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1858.16 1348.12 t 0 r /Symbol findfont 37.9217 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1751.98 1348.12 t 0 r /Helvetica findfont 37.9217 sf 0 0 m ( \(0.52 ) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1640.11 1348.12 t 0 r /Helvetica findfont 51.1943 sf 0 0 m ( 1.12) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1611.67 1348.12 t 0 r /Symbol findfont 51.1943 sf 0 0 m (±) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1442.92 1348.12 t 0 r /Helvetica findfont 51.1943 sf 0 0 m (172.85 ) show NC gr  black
+ gsave  2268 1559 0 0 C 1854.37 1484.63 t 0 r /Helvetica findfont 28.4413 sf 0 0 m (\2551) show NC gr 
+ gsave  2268 1559 0 0 C 1706.48 1463.78 t 0 r /Helvetica findfont 43.6099 sf 0 0 m ( \255 8.7 fb) show NC gr 
+ gsave  2268 1559 0 0 C 1685.62 1484.63 t 0 r /Helvetica findfont 28.4413 sf 0 0 m (\2551) show NC gr 
+ gsave  2268 1559 0 0 C 1528.24 1463.78 t 0 r /Helvetica findfont 43.6099 sf 0 0 m ( = 3.5 fb) show NC gr 
+ gsave  2268 1559 0 0 C 1497.91 1444.82 t 0 r /Helvetica findfont 28.4413 sf 0 0 m (int) show NC gr 
+ gsave  2268 1559 0 0 C 921.497 1463.78 t 0 r /Helvetica findfont 43.6099 sf 0 0 m ( combination \255 March 2014,  L) show NC gr 
+ gsave  2268 1559 0 0 C 881.679 1450.5 t 0 r /Helvetica findfont 28.4413 sf 0 0 m (top) show NC gr 
+ gsave  2268 1559 0 0 C 555.553 1463.78 t 0 r /Helvetica findfont 43.6099 sf 0 0 m 
+ 292 280 249 217 193 167 143 119 104 92 68 46 22
+(Tevatron+LHC m) K NC gr 
+ gsave  2268 1559 0 0 C 822.9 1403.1 t 0 r /Helvetica findfont 43.6099 sf 0 0 m 
+ 735 720 696 672 662 626 616 606 582 568 538 526 502 471 458 433 421 392 355 324 312 286 274 248 216 185 172 147 135 106 77 53 26
+(ATLAS + CDF + CMS + D0 Preliminary) K NC gr  0 0 1 c 0.5 0.5 0.5 c 1 0 0 c 0 0 1 c 1 0.6 0.2 c 0 0 1 c 0.5 0.5 0.5 c black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 2074.32 257.867 t 0 r /Helvetica findfont 36.0256 sf 0 0 m (\)) show NC gr  0 0 1 c black 0 0 1 c
+ gsave  2268 1559 0 0 C 1962.45 257.867 t 0 r /Helvetica findfont 36.0256 sf 0 0 m (    syst.) show NC gr  1 0.6 0.2 c black 1 0.6 0.2 c
+ gsave  2268 1559 0 0 C 1860.06 257.867 t 0 r /Helvetica findfont 36.0256 sf 0 0 m (   iJES) show NC gr  0 0 1 c black 0 0 1 c
+ gsave  2268 1559 0 0 C 1841.1 257.867 t 0 r /Helvetica findfont 36.0256 sf 0 0 m (  ) show NC gr  1 0 0 c black 1 0 0 c
+ gsave  2268 1559 0 0 C 1774.73 257.867 t 0 r /Helvetica findfont 36.0256 sf 0 0 m (stat.) show NC gr  0.5 0.5 0.5 c black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 1655.28 257.867 t 0 r /Helvetica findfont 36.0256 sf 0 0 m (total    \() show NC gr [ 12 12] 0 sd 3 lw 113 435 m 2041 X s black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 157.754 273.969 t 90 r /Helvetica findfont 36.0256 sf 0 0 m (Previous) show NC gr  black 0.5 0.5 0.5 c
+ gsave  2268 1559 0 0 C 197.686 314.151 t 90 r /Helvetica findfont 36.0256 sf 0 0 m (Comb.) show NC gr 
+ gr  gr showpage
+end
+%%EOF

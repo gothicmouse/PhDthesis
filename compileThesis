@@ -1,0 +1,8 @@
+echo "Compiling"
+pdflatex Thesis
+bibtex Thesis
+pdflatex Thesis
+pdflatex Thesis | grep -i warning
+rm -f *.{blg,bbl,toc,out,log,mtc*,aux,dvi,bmt,maf,brf,bbl}
+rm -f texte/*/*.{blg,toc,out,log,mtc*,dvi,bmt,brf,aux,brf,bbl}
+rm -f texte/*.{blg,toc,out,log,mtc*,dvi,bmt,brf,aux,brf,bbl}

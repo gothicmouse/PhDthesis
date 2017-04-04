@@ -1,0 +1,12 @@
+\section{Primary vertices}
+\label{chp:obj:PVs}
+
+The reconstruction of the interaction points, referred to as Primary Vertices (PV), is essential to identify which one corresponds to the hard-scattering process and reconstruct the physics objects accordingly.
+At the high-luminosity regime in which LHC operates, multiple $pp$ interactions occur per beam crossing, resulting in multiple PV candidates per event. The number of PVs in an event is used to measure the in-time pileup.
+PVs are reconstructed as points from which fitted tracks originate. The reconstruction proceeds in two steps: the primary-vertex finding, in which reconstructed tracks are associated to the vertex candidates, and the vertex fitting, in which the vertex position and the corresponding uncertainties are estimated.
+The vertex finding is an iterative procedure that runs over the set of tracks passing certain quality criteria in terms of a $\pt$ threshold, the number of hits in the silicon detectors, as well as the longitudinal and transverse impact parameters and their resolutions.
+An adaptive vertex algorithm \cite{ATLAS-CONF-2010-069} fits the vertex position and associates tracks to it. Tracks incompatible with the fitted vertex are returned to the vertex finding for the next iteration. 
+In order to improve the resolution on the vertex spatial position, only vertices that have at least two tracks with $\pt > 400\,\mev$ associated with them are considered.
+Among the reconstructed PV candidates consistent with the beam-collision region (beamspot), the hard-scatter PV is chosen to be that with the highest sum of the squared transverse momenta of the tracks associated to it. The rest of the PVs are considered pileup interactions. Vertices incompatible with the beamspot are considered secondary vertices, also referred to as displaced vertices. The reconstruction of secondary vertices is useful to identify $b$- and $c$-hadrons, as will be described in section \ref{sec:obj:jets:btagging}.
+
+

@@ -1,0 +1,197 @@
+\documentclass[a4paper,11pt,twoside]{ThesisStyle}
+
+\include{formatAndDefs}
+\usepackage[latin1]{inputenc}
+\usepackage[english]{babel}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{epsfig}
+\mtcselectlanguage{english}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{bbm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{lscape}
+\usepackage[avantgarde]{quotchap}
+\renewcommand\chapterheadstartvskip{\vspace*{-5\baselineskip}}
+\usepackage{helvet}
+\renewcommand\sectfont{\sffamily\bfseries}
+\usepackage{xspace}
+\usepackage{hyphenat}
+\usepackage{placeins}
+\usepackage{comment}
+\usepackage{adjustbox}
+% \usepackage[left,modulo]{lineno}
+%\linenumbers
+\usepackage{arydshln}
+\usepackage{caption}
+\usepackage{latex/atlasphysics}
+\usepackage{latex/atlasbiblatex}
+\usepackage[toc,page]{appendix}
+% allows for temporary adjustment of side margins
+\usepackage{chngpage}
+
+% provides filler text
+\usepackage{lipsum}
+
+% just makes the table prettier (see \toprule, \bottomrule, etc. commands below)
+\usepackage{booktabs}
+
+
+\DeclareGraphicsRule{.1}{mps}{*}{}
+\setcounter{minitocdepth}{3}
+
+% --- new commands
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\nn}{\nonumber}
+
+\newcommand{\bt}{\begin{table}}
+\newcommand{\et}{\end{table}}
+
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+
+\newcommand{\bfig}{\begin{figure}}
+\newcommand{\efig}{\end{figure}}
+
+\newcommand{\btt}{\begin{tabular}}
+\newcommand{\ett}{\end{tabular}}
+
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ib}{\item[$\bullet$]}
+\newcommand{\ei}{\end{itemize}}
+
+\newcommand{\ben}{\begin{enumerate}}
+\newcommand{\een}{\end{enumerate}}
+
+\newcommand{\e}{$^{e}$}
+
+\newcommand{\coloredLink}[2]{\textcolor{blue}{\href{#1}{#2}}}
+
+
+%%%
+% ACRONYMES
+%%%
+\newcommand{\Atlas}{{\sc Atlas}}
+\newcommand{\Atlasbf}{{\sc \textbf{Atlas}}}
+%%%
+
+
+
+
+
+% OBJETS
+%%%
+
+\newcommand{\lep}{\mathcal{l}}
+\newcommand{\lag}{\mathcal{L}}
+
+\newcommand{\BR}{\mathrm{BR}}
+\newcommand{\KK}{\mathrm{KK}}
+
+
+\newcommand{\tight}{$\math
+bbm{T}$}
+\newcommand{\loose}{$\mathbbm{L}$}
+\newcommand{\mc}[1]{
+	$\mathcal{#1}$
+}
+\newcommand{\CLs}{$\text{CL}_s$}
+\newcommand{\brem}{\textit{bremsstrahlung}}
+\hyphenation{brems-strah-lung}
+
+\newcommand{\ket}[1]{\ensuremath{|#1\rangle}\xspace}
+\newcommand{\bra}[1]{\ensuremath{\langle #1|}\xspace}
+
+
+
+
+
+
+\newcommand{\citechap}[2]{
+  	%\begin{savequote}[70mm]
+  	%	\itshape \og{}{#1}\fg{}
+  	%	\qauthor{#2}
+	%\end{savequote}
+}
+
+\newcommand{\fig}[5]{
+  \begin{figure}[#5]
+    \begin{center}
+        	\epsfig{file=#1,width=#4\linewidth,clip=}
+      	\caption{#2}
+      	\label{#3}
+    \end{center}
+  \end{figure}
+}
+
+\begin{document}
+
+         \interfootnotelinepenalty=10000
+
+	%%% ---- Title Page
+	\input{text/00a-TitlePage}
+
+	%%% ---- Dedica
+          \input{text/00b-Dedica}
+
+	\input{text/00c-Abstract_Spanish}
+	\cleardoublepage
+	\input{text/00c-Abstract}
+         % \cleardoublepage
+         
+         	\frontmatter
+	\pagenumbering{Roman}
+        
+	%%% ---- table of contents
+	\dominitoc
+	\tableofcontents
+
+	\mainmatter %start numeration with normal numbers
+
+	%%% ---- beginning thesis
+	\input{text/00d-Introduction}
+
+	\input{text/01-Theory/Theory}
+	
+	\input{text/02-Detector/Detector}
+	
+	\input{text/03-Event-Simulation/EventSimulation}
+
+           \input{text/04-Objects-Simulation/Objects}
+	
+	\input{text/05-Data-Samples/DataSamples}
+	
+	\input{text/06-VLQ/VLQ}
+	
+	\input{text/07-ttH/ttH}
+
+	
+	\input{text/100-Conclusions}
+
+	\cleardoublepage
+
+	\part*{Appendices}
+	
+	
+	\appendix
+	\input{text/APP_ttA/ttA}
+	
+	\input{text/APP_Glossary/Glossary}
+
+ 	\cleardoublepage
+
+          \bibliographystyle{text/Bibliography/atlasBibStyleWithTitle}
+	\bibliography{text/Bibliography/myBib}
+	\cleardoublepage
+	%%% ---- Acknowledgements
+	\input{text/101-Acknowledgements}
+	%\input{text/102-Private}
+
+\end{document}

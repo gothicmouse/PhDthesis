@@ -1,0 +1,270 @@
+#!/usr//bin/perl -w
+# 
+# Place this file in your bin directory.
+# Make it executable (chmod +x ordercite). 
+# If your copy of perl is not in /usr/bin/perl, then you will need
+# to modify the first line of this file to point to it.
+
+# Instructions on running the program can be obtained by running
+# ordercite without any arguments.
+#
+# $Id: ordercite,v 1.6 2004/07/12 23:21:38 salam Exp $
+
+# CHANGELOG:
+# - ??/12/2003 (v3.0): wrote this to replace C++ version
+# - 08/07/2004 (v3.1): added "-nochecks" option so as to generate reordered
+#                      list even if there are missing citations/refs/etc. 
+
+
+use strict;
+
+(my $name= "$0") =~ s/.*\///;
+
+if ($#ARGV < 0) {print "Usage:
+
+> $name filename.tex [-nochecks]
+".'
+The program will indicate whether references are in order and whether
+there are any missing references/citations. If there are no missing
+references/citations but the references are in the wrong order a file
+filename.tex.newref will be generated containing the reordered
+references. (With the "-nochecks" option a reordered list will always 
+be generated)
+
+Note that the determination of the order and existence of
+references/citations is based on the filename.aux file. This is quite
+robust, but LaTeX must have been run first. 
+
+On the other hand the reordering of the references is less robust, and
+will for example break if there are strings such as "\\\\bibitem" or 
+"\%[...]\bibitem" In most cases (all?) an error message will be
+generated if there are signs of problems and no .tex.newref file will
+be produced.
+'; exit }
+
+my $basefile='';
+my $nochecks = 0;
+
+while (my $arg = shift @ARGV) {
+  if ($arg eq '-nochecks') {$nochecks = 1}
+  elsif ($arg !~ /^-/) {$basefile = $arg}
+  else {die "Unrecognized option $arg"}
+}
+if ($basefile eq '') {die "basefile not specified"}
+
+#(my $basefile = $ARGV[0]) =~ s/\.tex$//;
+$basefile =~ s/\.tex$//;
+$basefile =~ s/\.aux//;
+my $auxfile = $basefile.".aux";
+my $texfile = $basefile.".tex";
+
+#-- check aux file is sufficiently recent
+(my @details = stat $texfile) || die "Error: problem accessing $texfile\n";
+# time since it was last changed (name changes also matter)
+my $textime = $details[10];
+(@details = stat $auxfile)  || die "Error: problem accessing $auxfile\n";
+my $auxtime = $details[10];
+if ($auxtime <= $textime) {
+  die "Error: $auxfile should be more recent than $texfile, but is not. Run LaTeX!\n"}
+
+
+my %references = ();
+my @references = ();
+
+my %citations = ();
+my @citations = ();
+
+my $problems = 0;
+my $mismatches = 0;
+my $key;
+
+# read in aux file
+open(AUX , "< $auxfile") || die "Could not open $auxfile";
+while (my $line=<AUX>) {
+  chomp($line);
+  if ($line =~ /^\\citation/) {
+    $line =~ s/.*{(.*)}/$1/;
+    my @keys = split(',', $line);
+    foreach my $key (@keys) {
+      if (!exists($citations{$key})) {
+	push @citations, $key;
+	$citations{$key} = 1;
+	#print "$key\n";
+      }
+    }
+  }
+  if ($line =~ /^\\bibcite/) {
+    # add extra bracket at end so as not to confuse emacs bracket counting!
+    $line =~ s/[^{]*{(.*)}[^}]*/$1/;
+    (my $key, my $numb) = split('}{', $line);
+    if (exists($references{$key})) {
+      print STDERR "WARNING: $key appeared more than once in references\n";
+      $problems += 1;
+    }
+    else{
+      push @references, $key;
+      $references{$key} = $numb;
+      if ($numb ne $#references+1) {
+	print "WARNING: problem in numbering of references for $key";
+	$problems += 1;
+      } 
+    }
+  }
+}
+
+#======= summarise status of aux file ==================================
+my %absentcitations=();
+my %absentreferences=();
+foreach $key (keys %citations) {
+    if (!exists $references{$key}) {$absentreferences{$key}=1}}
+foreach $key (keys %references) {
+  if (!exists $citations{$key}) {$absentcitations{$key}=1}}
+
+my $format = "%5u%32s%32s%6s";
+(my $formattit = $format) =~ s/u/s/;
+my $separator="--------------------------------------------------------------------------\n";
+my $summary='';
+$summary .= sprintf ($formattit,"","Citation","Reference","")."\n";
+$summary .= $separator;
+my $maxindex = max($#references,$#citations);
+for (my $index=0; $index <= $maxindex; $index++) {
+  my $ne; my $citation; my $reference;
+  if ($index > $#citations) {$citation = ''} else 
+    {$citation = $citations[$index]}
+  if ($index > $#references) {$reference = ''} else 
+    {$reference = $references[$index]}
+  if ($citation eq $reference){$ne = ''}else{ $ne = '*'}
+  $summary .= sprintf("%5u%32s%32s%5s",$index+1,$citation,$reference,$ne)."\n";
+  if ($ne ne '') {$mismatches += 1};
+}
+$summary .= $separator;
+
+if ($mismatches == 0) {print "All references and citations match and appear in correct order!\n"; exit}
+
+print $summary;
+
+# check to see if anything is missing
+my @rlist = (keys %absentreferences);
+if ($#rlist >= 0) {
+  print "The following references were cited but not present in bibliography:\n",
+    join("\n",@rlist),"\n",$separator;
+}
+my @clist = (keys %absentcitations);
+if ($#clist >= 0) {
+  print "The following references were present in bibliography but not cited:\n",
+    join("\n",@clist),"\n",$separator;
+}
+
+#======= Reorder citations? ==================================
+if ((($#rlist >= 0 || $#clist >= 0 || $mismatches == 0) && (!$nochecks)) || $problems > 0) {
+  print "Will not attempt to create a reordered citation list!\n";
+  exit;
+}
+open (TEX, "<$texfile") || die "Could not open $texfile.\n";
+my $collecting = 0;
+my $current='';
+my $next = '';
+my $index=-1;
+my $result = '';
+my $seenblankline=0;
+
+#-- first split lines with a bibitem; not very elegant, but sometimes useful
+#   NB: things such as \% and \\bibitem are not properly dealt with!
+#   (not very effecient? Better to do on just restricted part of file)
+my @lines = ();
+while (my $line = <TEX>){
+  if ($line !~ /\\bibitem/) {push @lines, $line;}
+  else {
+    my $extractor = qr/^([\s]*[^%\s]+[^%]*)(\\bibitem.*)/;
+    my @lcllist = ();
+    while ($line =~ /$extractor/) {
+      (my $lastbib = $line) =~ s/$extractor/$2/;
+      push @lcllist, $lastbib;
+      $line =~ s/$extractor/$1/;
+    }
+    push @lines, $line, reverse(@lcllist);
+  }
+}
+# handy for debugging...
+#print join('',@lines)."\n";
+close(TEX);
+
+
+for my $line (@lines){
+  if ($line =~ /^[^%]*\\begin{thebibliography}/) {
+    die "Found \\begin{thebibliography} inside bibliography" unless !$collecting; 
+    $collecting = 1;
+    $result .= $line;
+   next;
+  }
+  if ($line =~ /^[^%]*\\end{thebibliography}/) {
+    die "Found \\end{thebibliography} outside bibliography" unless $collecting; 
+    $references{$references[$index]} = $current;
+
+    # make sure no references have gone missing...
+    if ($index != $#references) {
+      die 
+       "Error: number of bibitems found (".($index+1).") does not correspond 
+       to expected number of references (".($#references+1).").\n"
+    }
+
+    # now collect all references in the right order
+    for ($index=0; $index <= $#citations; $index++){
+      if (!exists $references{$citations[$index]}) {
+	print STDERR "Could not find reference ".$citations[$index]."\n";
+      } else { $result .= $references{$citations[$index]}}
+    }
+    # put on any "post matter"
+    $result .= $next;
+    # finish off the bibliography
+    $result .= $line;
+
+    # now put commented version of references that were not cited
+    $result .= "\n";
+    foreach my $absentee (@clist) {
+      (my $absref = $references{$absentee}) =~ s/^/%% /mg;
+      $result .= $absref;
+    }
+    $result .= "\n";
+
+    last;
+  }
+  next unless $collecting;
+
+  if ($line =~ /^[\s]*\\bibitem/) {
+    # tidy up last citation
+    if ($index >=0) {
+      $references{$references[$index]} = $current
+    } else {$result .= $current}
+
+    $seenblankline = 0;
+    $index+=1;
+    $current = $next.$line;
+    $next = '';
+    ($key = $line) =~ s/.*bibitem{(.+?)}.*/$1/;
+    chomp ($key);
+    if ($references[$index] ne $key) {
+      die  "Error: Reference ".($index+1)." (".$references[$index].
+	") does not match with expected key $key.\n";
+    }
+    next;
+  } 
+  
+  # now arrange so that any comment after a blank line goes
+  # into the next citation, UNLESS it is followed by non-commented
+  $seenblankline = ($seenblankline || ($line =~ /^[\s]*$/));
+  if ($seenblankline && $line =~ /^[\s]*[^%\s]/) {
+    $seenblankline =0; $current.=$next; $next = ''
+  }
+  if ($seenblankline) {$next .= $line} else {$current .= $line}
+}
+print "Creating file $texfile.newref with reordered references (use with caution!)\n";
+open (REFOUT, "> $texfile.newref");
+print REFOUT $result;
+
+#======================================================================
+# yeah, so it's f90 like, etc...
+sub max {
+  (my $a, $b) = @_;
+  if ($a > $b) {return $a} else {return $b}
+} 
